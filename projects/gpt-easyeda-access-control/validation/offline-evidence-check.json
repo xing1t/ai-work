@@ -1,0 +1,26 @@
+{
+  "mode": "offline saved snapshots only; no EDA connection, DRC execution or save",
+  "counts": {
+    "parts": 56,
+    "nonempty_nets": 41,
+    "pad_entries": 191,
+    "copper_segments": 638,
+    "vias": 51,
+    "fills": 2
+  },
+  "snapshot_drc_passed": true,
+  "snapshot_drc_errors": 0,
+  "snapshot_saved": true,
+  "pad_fingerprint_equal": true,
+  "visible_references": 56,
+  "source_byte_equal": false,
+  "source_equal_after_CRLF_to_LF": true,
+  "source_file_sha256": "b23308d9a55fcdb7df6450c9207c2d558bf2a59a774f27d78311afd69d8ffe83",
+  "source_embedded_utf8_sha256": "3d8e2d395559827a308e6d15d83aeba41b077cb88439be0e5e0909b492219ba6",
+  "source_file_crlf": 1354,
+  "schematic_parts": 56,
+  "schematic_saved": true,
+  "expected_connections": 173,
+  "connection_mismatches": [],
+  "schematic_drc": "historical false; final pass unverified"
+}

@@ -1,0 +1,30 @@
+{
+  "manifest_project_files": 192,
+  "external_references": 7,
+  "category_counts": {
+    "exclude_generated": 28,
+    "refactor_before_reuse": 69,
+    "private_project": 12,
+    "historical_only": 81,
+    "historical_report": 2
+  },
+  "archived_originals": 29,
+  "excluded_project_files": 164,
+  "external_not_copied": 7,
+  "missing": 0,
+  "hash_changed": 0,
+  "duplicates_of_archived": [
+    {
+      "original_path": "C:\\work\\eda-preview.png",
+      "duplicate_of": "projects/gpt-easyeda-access-control/hardware/pcb/PCB3-bottom.png"
+    },
+    {
+      "original_path": "C:\\work\\eda_last.json",
+      "duplicate_of": "projects/gpt-easyeda-access-control/validation/HANDOFF_READONLY_CHECK.json"
+    },
+    {
+      "original_path": "C:\\work\\PCB3_layout_source.txt",
+      "duplicate_of": "projects/gpt-easyeda-access-control/hardware/pcb/PCB3_final_source.txt"
+    }
+  ]
+}

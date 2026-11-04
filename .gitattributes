@@ -1,0 +1,6 @@
+# 新文档固定 LF；原始证据保持字节，不自动清理历史空白。
+* text=auto eol=lf
+projects/gpt-easyeda-access-control/hardware/** -text -whitespace
+projects/gpt-easyeda-access-control/validation/** -text -whitespace
+projects/gpt-easyeda-access-control/docs/original/** -text -whitespace
+projects/gpt-easyeda-access-control/scripts/historical/** -text -whitespace

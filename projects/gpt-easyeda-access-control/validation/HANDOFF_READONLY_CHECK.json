@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "result": {
+    "document": {
+      "documentType": 1,
+      "uuid": "e1b0396bfb7eebb6",
+      "tabId": "e1b0396bfb7eebb6@d1c8a743897b4713bda8a685ea0825bb",
+      "parentProjectUuid": "d1c8a743897b4713bda8a685ea0825bb"
+    },
+    "pcbPartCount": null
+  },
+  "windowId": "ab973566-7691-40d8-8e7b-1b15221b232f"
+}

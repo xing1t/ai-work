@@ -1,0 +1,1835 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-04T15:41:55.166841+08:00",
+  "project": "gpt-easyeda-access-control",
+  "root": "C:\\work",
+  "scope": "会话项目文件盘点；没有复制外部资料、初始化仓库、创建远程或推送",
+  "git_root_status": "C:/work 不是 Git 仓库，且与桌面宠物项目共用目录",
+  "evidence_check": {
+    "mode": "本地最终快照离线复核；另执行只读活动文档探针",
+    "parts": 56,
+    "nets": 41,
+    "pad_entries": 191,
+    "pad_net_fingerprint_unchanged": true,
+    "pcb_snapshot_drc_passed": true,
+    "pcb_snapshot_drc_errors": 0,
+    "pcb_snapshot_saved": true,
+    "source_matches_snapshot": true,
+    "active_document_at_handoff": {
+      "documentType": 1,
+      "uuid": "e1b0396bfb7eebb6",
+      "tabId": "e1b0396bfb7eebb6@d1c8a743897b4713bda8a685ea0825bb",
+      "parentProjectUuid": "d1c8a743897b4713bda8a685ea0825bb"
+    },
+    "probe_pcb_part_count": null,
+    "schematic_drc_passed": "未确认；旧报告记录 false"
+  },
+  "files": [
+    {
+      "path": "C:\\work\\eda-current-read.log",
+      "exists": true,
+      "archive_recommendation": "exclude_generated",
+      "note": "临时、覆盖式输出、日志或重复副本；不作为最终验收",
+      "size_bytes": 172145,
+      "modified_at": "2026-11-04T13:29:58.971706+08:00",
+      "sha256": "28e525d34f4919f1a2ac362d05540aa33ab472d32feb587daea4b15c114eef71"
+    },
+    {
+      "path": "C:\\work\\eda-export.log",
+      "exists": true,
+      "archive_recommendation": "exclude_generated",
+      "note": "临时、覆盖式输出、日志或重复副本；不作为最终验收",
+      "size_bytes": 590710,
+      "modified_at": "2026-11-04T01:07:28.033107+08:00",
+      "sha256": "f5565dba2e4f639ed20b670b4997fab1322f4e9ba3981077c5e3e6f01d831995"
+    },
+    {
+      "path": "C:\\work\\eda-preview.png",
+      "exists": true,
+      "archive_recommendation": "exclude_generated",
+      "note": "临时、覆盖式输出、日志或重复副本；不作为最终验收",
+      "size_bytes": 240936,
+      "modified_at": "2026-11-04T15:08:57.831505+08:00",
+      "sha256": "5d80d1704746908ba8dcba725cc46fe5b085594d730cb2ea98abbab4afc88082"
+    },
+    {
+      "path": "C:\\work\\eda-read.log",
+      "exists": true,
+      "archive_recommendation": "exclude_generated",
+      "note": "临时、覆盖式输出、日志或重复副本；不作为最终验收",
+      "size_bytes": 347656,
+      "modified_at": "2026-11-04T01:07:27.792864+08:00",
+      "sha256": "34b9524fdd7705dc84eb802562b49f271e2c99f6e34435cdb02802e8bbc49c5c"
+    },
+    {
+      "path": "C:\\work\\eda_build.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 3391,
+      "modified_at": "2026-11-04T00:50:26.991153+08:00",
+      "sha256": "b595e8591962e94d892bcd65d1562655a843b546e62ca44a9d33883fc9d38c64"
+    },
+    {
+      "path": "C:\\work\\eda_call.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 907,
+      "modified_at": "2026-11-04T00:45:22.779111+08:00",
+      "sha256": "480b15b6d517c5f4d79e969a3b08d1abd82e4fe133257d573613ad0369f3861a"
+    },
+    {
+      "path": "C:\\work\\eda_clean.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 872,
+      "modified_at": "2026-11-04T01:03:51.400862+08:00",
+      "sha256": "e36cd3bb1af5f30488ee46cf4999571eae8a898b1a96782c8c5779882ab984ba"
+    },
+    {
+      "path": "C:\\work\\eda_connections.json",
+      "exists": true,
+      "archive_recommendation": "private_project",
+      "note": "最终成果或关键证据；公开前检查个人路径、工程标识和库资源授权",
+      "size_bytes": 3510,
+      "modified_at": "2026-11-04T01:00:57.720443+08:00",
+      "sha256": "56f1cf03ff110a56a89685897b15de6b3939b926780270d8b075961687f2438b"
+    },
+    {
+      "path": "C:\\work\\eda_cost_current.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 172143,
+      "modified_at": "2026-11-04T13:29:58.930033+08:00",
+      "sha256": "abd0af16040bad77405ec7dc321bdbcc6345168586d76b3bff895ccfbcb84a5b"
+    },
+    {
+      "path": "C:\\work\\eda_devices.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 45532,
+      "modified_at": "2026-11-04T00:49:53.931822+08:00",
+      "sha256": "bd5727679954a85de4373c347711a161e590dd22a9c9206f0428ed0fec65bb05"
+    },
+    {
+      "path": "C:\\work\\eda_docs.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 469,
+      "modified_at": "2026-11-04T00:48:07.938089+08:00",
+      "sha256": "abfab69e396d8810e750c9ba5cbfdd64474d8380db7ce221d0a83a6bb1601a08"
+    },
+    {
+      "path": "C:\\work\\eda_export.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 626,
+      "modified_at": "2026-11-04T00:54:02.496638+08:00",
+      "sha256": "4b81efd7ff986e68789d4495186eafb9628c2206a0bcfcad11781c00b6a9b996"
+    },
+    {
+      "path": "C:\\work\\eda_final.json",
+      "exists": true,
+      "archive_recommendation": "private_project",
+      "note": "最终成果或关键证据；公开前检查个人路径、工程标识和库资源授权",
+      "size_bytes": 178089,
+      "modified_at": "2026-11-04T01:07:27.776534+08:00",
+      "sha256": "5d323339e6b4122333bd6c09dad71dbfbde3969959d2ad607f39605ed9800fca"
+    },
+    {
+      "path": "C:\\work\\eda_last.json",
+      "exists": true,
+      "archive_recommendation": "exclude_generated",
+      "note": "临时、覆盖式输出、日志或重复副本；不作为最终验收",
+      "size_bytes": 345,
+      "modified_at": "2026-11-04T15:30:58.431854+08:00",
+      "sha256": "b6bef92cee76724d914af965f0e53f63d5fbd799029cf84fa44b3202822a7ae2"
+    },
+    {
+      "path": "C:\\work\\eda_layout.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 1139,
+      "modified_at": "2026-11-04T00:54:02.498274+08:00",
+      "sha256": "2c07b9944b23a212dce7baa8877f5c51d64dca9afb76dad5290b9c0c2a3158e1"
+    },
+    {
+      "path": "C:\\work\\eda_netlist.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 171346,
+      "modified_at": "2026-11-04T01:01:04.111868+08:00",
+      "sha256": "54977bc934d81d344555786dd8a55a3fe8c76de0768e62c5e3d29cd4971eb0f8"
+    },
+    {
+      "path": "C:\\work\\eda_passives2_search.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 4075,
+      "modified_at": "2026-11-04T00:47:23.338385+08:00",
+      "sha256": "c62094bb5f895cbde381770b707f620c26c6932ea5a3c735dd1be4e09daa73ac"
+    },
+    {
+      "path": "C:\\work\\eda_passives_search.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 2369,
+      "modified_at": "2026-11-04T00:47:03.738026+08:00",
+      "sha256": "49435df5c3bd203ef66c145bc16b978430857864ee9c01358abc4caa800fbbc2"
+    },
+    {
+      "path": "C:\\work\\eda_pins.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 28440,
+      "modified_at": "2026-11-04T00:57:03.278028+08:00",
+      "sha256": "9c4fcf3a2cc670d88abb3eb691f9dd954f5dd5e1f0c773acd341d5fe6e6754ef"
+    },
+    {
+      "path": "C:\\work\\eda_plan.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 14926,
+      "modified_at": "2026-11-04T00:51:42.913024+08:00",
+      "sha256": "7f87bfda3781a7a8870ec95b3a479da7d64c21874fa5552e6b701ff33b8a6e37"
+    },
+    {
+      "path": "C:\\work\\eda_search.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 565,
+      "modified_at": "2026-11-04T00:48:33.374467+08:00",
+      "sha256": "718d9374440aa427d178414a7b0c48c3917f82010399ecb5c6589ab6e6a7411c"
+    },
+    {
+      "path": "C:\\work\\eda_source.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 1035259,
+      "modified_at": "2026-11-04T01:02:22.056894+08:00",
+      "sha256": "2a02c0b2df25bf4c19e545460d444ae321bc65ff0dd8c03510ff4c0372cddc24"
+    },
+    {
+      "path": "C:\\work\\eda_source_after.json",
+      "exists": true,
+      "archive_recommendation": "private_project",
+      "note": "最终成果或关键证据；公开前检查个人路径、工程标识和库资源授权",
+      "size_bytes": 1047368,
+      "modified_at": "2026-11-04T01:04:46.966390+08:00",
+      "sha256": "a8552554fd609af9efe00a5c2d7210dc6b31c87d9c9c29f805673cab35459fe6"
+    },
+    {
+      "path": "C:\\work\\eda_step.js",
+      "exists": true,
+      "archive_recommendation": "exclude_generated",
+      "note": "临时、覆盖式输出、日志或重复副本；不作为最终验收",
+      "size_bytes": 109,
+      "modified_at": "2026-11-04T15:10:46.686358+08:00",
+      "sha256": "f7c233f2d14da9e0f4e8f64e19c3bad1159c314665e128a8c606b292869a0757"
+    },
+    {
+      "path": "C:\\work\\eda_uid.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 494,
+      "modified_at": "2026-11-04T01:06:28.834283+08:00",
+      "sha256": "6a99dac134cf49b1da4d7280678664ba0bedd71fcf51c464ea1283c10214756d"
+    },
+    {
+      "path": "C:\\work\\eda_wire_ops.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 28944,
+      "modified_at": "2026-11-04T01:00:57.720443+08:00",
+      "sha256": "22d3ba0c74cd6c09f36e5988db098f2cb55237e82696559f93939bc2cf56e66c"
+    },
+    {
+      "path": "C:\\work\\eda_wiring.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 6949,
+      "modified_at": "2026-11-04T00:58:12.748541+08:00",
+      "sha256": "65eb77a6961cc3dcdaf92047ca12a929a6d4cfe2a9d773298220c45c52df1d74"
+    },
+    {
+      "path": "C:\\work\\HANDOFF_READONLY_CHECK.json",
+      "exists": true,
+      "archive_recommendation": "private_project",
+      "note": "最终成果或关键证据；公开前检查个人路径、工程标识和库资源授权",
+      "size_bytes": 345,
+      "modified_at": "2026-11-04T15:30:58.431854+08:00",
+      "sha256": "b6bef92cee76724d914af965f0e53f63d5fbd799029cf84fa44b3202822a7ae2"
+    },
+    {
+      "path": "C:\\work\\handoff_readonly_probe.js",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "已执行的只读探针；可配合桥适配器复用",
+      "size_bytes": 184,
+      "modified_at": "2026-11-04T15:30:58.136729+08:00",
+      "sha256": "3b7206942280a7bfdc35992ffaa7087dcc2fac39cd710dd1e478d7ada3674e19"
+    },
+    {
+      "path": "C:\\work\\pcb-export.log",
+      "exists": true,
+      "archive_recommendation": "exclude_generated",
+      "note": "临时、覆盖式输出、日志或重复副本；不作为最终验收",
+      "size_bytes": 321390,
+      "modified_at": "2026-11-04T15:08:57.842687+08:00",
+      "sha256": "5d76352148d84fcc4188e593845c3768953feaf6e0b0b12ee52b17716ea32d51"
+    },
+    {
+      "path": "C:\\work\\pcb-final-read.log",
+      "exists": true,
+      "archive_recommendation": "exclude_generated",
+      "note": "临时、覆盖式输出、日志或重复副本；不作为最终验收",
+      "size_bytes": 700975,
+      "modified_at": "2026-11-04T15:08:17.335303+08:00",
+      "sha256": "2dde9294f914cb45394852296bd90f9c4c8d0f17653fbf7bdf79077379aa4229"
+    },
+    {
+      "path": "C:\\work\\pcb-ground-apply.log",
+      "exists": true,
+      "archive_recommendation": "exclude_generated",
+      "note": "临时、覆盖式输出、日志或重复副本；不作为最终验收",
+      "size_bytes": 397389,
+      "modified_at": "2026-11-04T15:04:19.303659+08:00",
+      "sha256": "a83b800746752084fa05d48a795e85859a01f99cfebc62b0bcbfc8a001461040"
+    },
+    {
+      "path": "C:\\work\\pcb-ground-fill.log",
+      "exists": true,
+      "archive_recommendation": "exclude_generated",
+      "note": "临时、覆盖式输出、日志或重复副本；不作为最终验收",
+      "size_bytes": 397158,
+      "modified_at": "2026-11-04T15:06:03.029686+08:00",
+      "sha256": "ec99e772c22e09e818e6ef0d4b94fbca0a1848367078886af2fbc27071556400"
+    },
+    {
+      "path": "C:\\work\\pcb-ground-fill2.log",
+      "exists": true,
+      "archive_recommendation": "exclude_generated",
+      "note": "临时、覆盖式输出、日志或重复副本；不作为最终验收",
+      "size_bytes": 622448,
+      "modified_at": "2026-11-04T15:06:54.137411+08:00",
+      "sha256": "79de4c1cf441d4302985c22b59caeda4bacb21cfa618b7e67ec6fe7c7dd78941"
+    },
+    {
+      "path": "C:\\work\\pcb-layout-preview.png",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 309801,
+      "modified_at": "2026-11-04T14:13:38.700629+08:00",
+      "sha256": "46de29ae0b0ac6660328449cc9129f73b6148e45971a2cdb49c2b36e6dee6bcc"
+    },
+    {
+      "path": "C:\\work\\pcb-pour-attempt.png",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 252087,
+      "modified_at": "2026-11-04T15:05:05.323201+08:00",
+      "sha256": "8b27d0cb06131e8a552ec275bdc8210270807389d7433f5e78b7fcb04e935a2d"
+    },
+    {
+      "path": "C:\\work\\pcb-power-fix.log",
+      "exists": true,
+      "archive_recommendation": "exclude_generated",
+      "note": "临时、覆盖式输出、日志或重复副本；不作为最终验收",
+      "size_bytes": 7638,
+      "modified_at": "2026-11-04T14:45:28.735531+08:00",
+      "sha256": "78c140486e8bdf38b631ad3394fd01ed3d6406b9dd7fd363b9eb4d459230ff8a"
+    },
+    {
+      "path": "C:\\work\\pcb-preroute.log",
+      "exists": true,
+      "archive_recommendation": "exclude_generated",
+      "note": "临时、覆盖式输出、日志或重复副本；不作为最终验收",
+      "size_bytes": 218967,
+      "modified_at": "2026-11-04T14:54:24.060773+08:00",
+      "sha256": "d53d84907be9ce1e4122acd258970952fdad01f877f506f95ada00ba04e58c32"
+    },
+    {
+      "path": "C:\\work\\pcb-priority-power.log",
+      "exists": true,
+      "archive_recommendation": "exclude_generated",
+      "note": "临时、覆盖式输出、日志或重复副本；不作为最终验收",
+      "size_bytes": 207391,
+      "modified_at": "2026-11-04T14:55:21.242421+08:00",
+      "sha256": "c9f2315ebb7db0e3c2a327f59e9153340f8b62f531696bf9bad64da6270b7f60"
+    },
+    {
+      "path": "C:\\work\\pcb-read.log",
+      "exists": true,
+      "archive_recommendation": "exclude_generated",
+      "note": "临时、覆盖式输出、日志或重复副本；不作为最终验收",
+      "size_bytes": 99,
+      "modified_at": "2026-11-04T15:05:05.045047+08:00",
+      "sha256": "159094d3680a7f30876bed2710442d8ab8898260f001e521374401486cdfe653"
+    },
+    {
+      "path": "C:\\work\\pcb-rework-placement.png",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 308692,
+      "modified_at": "2026-11-04T14:32:27.935649+08:00",
+      "sha256": "cc57093c611d87e9380381fd8bfc73bdc5f3aee1fea7aa6e08eb94f0c92dbfa9"
+    },
+    {
+      "path": "C:\\work\\pcb-rework.log",
+      "exists": true,
+      "archive_recommendation": "exclude_generated",
+      "note": "临时、覆盖式输出、日志或重复副本；不作为最终验收",
+      "size_bytes": 7178,
+      "modified_at": "2026-11-04T14:22:35.408668+08:00",
+      "sha256": "b2aed855ecc9b9574be4e15afab6a4b71412d0caa6af72b6f8edb90c2e8317d5"
+    },
+    {
+      "path": "C:\\work\\pcb-route-apply.log",
+      "exists": true,
+      "archive_recommendation": "exclude_generated",
+      "note": "临时、覆盖式输出、日志或重复副本；不作为最终验收",
+      "size_bytes": 280374,
+      "modified_at": "2026-11-04T14:40:13.336175+08:00",
+      "sha256": "d8d8e101afd3fe1edaeb672d707ad5a08aecbcf8ebd0067540b760522577194d"
+    },
+    {
+      "path": "C:\\work\\pcb-route-priority-apply.log",
+      "exists": true,
+      "archive_recommendation": "exclude_generated",
+      "note": "临时、覆盖式输出、日志或重复副本；不作为最终验收",
+      "size_bytes": 246971,
+      "modified_at": "2026-11-04T14:56:58.240218+08:00",
+      "sha256": "054a36dddc7604b56a7b1b9453b0c0e9881bed22923eb7a1dc1145cc2af8f91d"
+    },
+    {
+      "path": "C:\\work\\pcb-routed-check.png",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 258883,
+      "modified_at": "2026-11-04T14:40:37.117303+08:00",
+      "sha256": "b293ae3c6b505c41d3f12ee8432812839c569100ef5a436499ea78749d08d2ad"
+    },
+    {
+      "path": "C:\\work\\pcb-router-java.log",
+      "exists": true,
+      "archive_recommendation": "exclude_generated",
+      "note": "临时、覆盖式输出、日志或重复副本；不作为最终验收",
+      "size_bytes": 9753,
+      "modified_at": "2026-11-04T14:34:19.009693+08:00",
+      "sha256": "c389a9a87a2e5d9814c4930f9cb3bbf8e08de324190525ed468b330c418df638"
+    },
+    {
+      "path": "C:\\work\\pcb-router-priority.log",
+      "exists": true,
+      "archive_recommendation": "exclude_generated",
+      "note": "临时、覆盖式输出、日志或重复副本；不作为最终验收",
+      "size_bytes": 7353,
+      "modified_at": "2026-11-04T14:56:24.489221+08:00",
+      "sha256": "38ea4f27bf3912b4eb99e2c1ffcf2dd166880677cef7aa3d2caef00ed227d7be"
+    },
+    {
+      "path": "C:\\work\\pcb-router.log",
+      "exists": true,
+      "archive_recommendation": "exclude_generated",
+      "note": "临时、覆盖式输出、日志或重复副本；不作为最终验收",
+      "size_bytes": 5123,
+      "modified_at": "2026-11-04T14:31:13.741251+08:00",
+      "sha256": "3d12239c5a653c71d67ce8bf8f8e7cac0c5716b1d7ee41501b3428cd415aa621"
+    },
+    {
+      "path": "C:\\work\\pcb-router2.log",
+      "exists": true,
+      "archive_recommendation": "exclude_generated",
+      "note": "临时、覆盖式输出、日志或重复副本；不作为最终验收",
+      "size_bytes": 6918,
+      "modified_at": "2026-11-04T14:38:12.285877+08:00",
+      "sha256": "9df6fba1d59cad84907bd3f9dccf4b50368826fc51184b227dcc6cecb93cdc52"
+    },
+    {
+      "path": "C:\\work\\pcb-router3.log",
+      "exists": true,
+      "archive_recommendation": "exclude_generated",
+      "note": "临时、覆盖式输出、日志或重复副本；不作为最终验收",
+      "size_bytes": 4603,
+      "modified_at": "2026-11-04T14:46:50.932365+08:00",
+      "sha256": "032b01987b6a059818f8bd7c95a93d95bec1506010699f6691b09bf7c41ac95b"
+    },
+    {
+      "path": "C:\\work\\pcb-silk-rework.log",
+      "exists": true,
+      "archive_recommendation": "exclude_generated",
+      "note": "临时、覆盖式输出、日志或重复副本；不作为最终验收",
+      "size_bytes": 68,
+      "modified_at": "2026-11-04T14:25:04.008274+08:00",
+      "sha256": "7422ce3feb76c2935e49f26b36a75eb353cbe226f330b3830527b164d414c134"
+    },
+    {
+      "path": "C:\\work\\pcb-swd-power.log",
+      "exists": true,
+      "archive_recommendation": "exclude_generated",
+      "note": "临时、覆盖式输出、日志或重复副本；不作为最终验收",
+      "size_bytes": 1622,
+      "modified_at": "2026-11-04T14:58:14.799590+08:00",
+      "sha256": "15dfa55e291983ac5dc08539cf8791fff356aa363f18db0de01ed89b419796cf"
+    },
+    {
+      "path": "C:\\work\\pcb-swd-short.log",
+      "exists": true,
+      "archive_recommendation": "exclude_generated",
+      "note": "临时、覆盖式输出、日志或重复副本；不作为最终验收",
+      "size_bytes": 344,
+      "modified_at": "2026-11-04T14:58:55.311332+08:00",
+      "sha256": "4faa65b3b820c8fa705dc0a1450f40c0720d8e4e5cb2388fc6727ac96143a3be"
+    },
+    {
+      "path": "C:\\work\\PCB3-bottom.png",
+      "exists": true,
+      "archive_recommendation": "private_project",
+      "note": "最终成果或关键证据；公开前检查个人路径、工程标识和库资源授权",
+      "size_bytes": 240936,
+      "modified_at": "2026-11-04T15:08:57.831505+08:00",
+      "sha256": "5d80d1704746908ba8dcba725cc46fe5b085594d730cb2ea98abbab4afc88082"
+    },
+    {
+      "path": "C:\\work\\PCB3-final.png",
+      "exists": true,
+      "archive_recommendation": "private_project",
+      "note": "最终成果或关键证据；公开前检查个人路径、工程标识和库资源授权",
+      "size_bytes": 320484,
+      "modified_at": "2026-11-04T15:07:08.154258+08:00",
+      "sha256": "3522a68a332b6dec546a8d556cf7ecd14726b769678cc254c4a5fe092643f229"
+    },
+    {
+      "path": "C:\\work\\PCB3_final_source.txt",
+      "exists": true,
+      "archive_recommendation": "private_project",
+      "note": "最终成果或关键证据；公开前检查个人路径、工程标识和库资源授权",
+      "size_bytes": 565683,
+      "modified_at": "2026-11-04T15:08:17.570699+08:00",
+      "sha256": "b23308d9a55fcdb7df6450c9207c2d558bf2a59a774f27d78311afd69d8ffe83"
+    },
+    {
+      "path": "C:\\work\\PCB3_final_verified.json",
+      "exists": true,
+      "archive_recommendation": "private_project",
+      "note": "最终成果或关键证据；公开前检查个人路径、工程标识和库资源授权",
+      "size_bytes": 700973,
+      "modified_at": "2026-11-04T15:08:17.304249+08:00",
+      "sha256": "dff55c34c6c85ba5afa5f2c5699664d5064c85746d1daf4190bb012a631c6b3e"
+    },
+    {
+      "path": "C:\\work\\PCB3_layout_source.txt",
+      "exists": true,
+      "archive_recommendation": "exclude_generated",
+      "note": "临时、覆盖式输出、日志或重复副本；不作为最终验收",
+      "size_bytes": 565683,
+      "modified_at": "2026-11-04T15:10:46.671335+08:00",
+      "sha256": "b23308d9a55fcdb7df6450c9207c2d558bf2a59a774f27d78311afd69d8ffe83"
+    },
+    {
+      "path": "C:\\work\\PCB3_priority.dsn",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "布线中间格式；之后存在人工修正与地铜，不是最终制造文件",
+      "size_bytes": 45174,
+      "modified_at": "2026-11-04T14:55:49.269942+08:00",
+      "sha256": "ab97b9f45e3de78129ac9643131b5481c4aaca53a3f41dfe33328e4befabc863"
+    },
+    {
+      "path": "C:\\work\\PCB3_priority_routed.ses",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "布线中间格式；之后存在人工修正与地铜，不是最终制造文件",
+      "size_bytes": 67772,
+      "modified_at": "2026-11-04T14:56:24.487219+08:00",
+      "sha256": "4dc1c39a61aa75c0cf1f14e93144425b8f2e83678083fd84a9e520441efedf6c"
+    },
+    {
+      "path": "C:\\work\\PCB3_rework.dsn",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "布线中间格式；之后存在人工修正与地铜，不是最终制造文件",
+      "size_bytes": 39497,
+      "modified_at": "2026-11-04T14:31:13.197738+08:00",
+      "sha256": "b22b721ada57759150e573aeba208cb251d179cc883c74865c55b2b450329204"
+    },
+    {
+      "path": "C:\\work\\PCB3_rework2.dsn",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "布线中间格式；之后存在人工修正与地铜，不是最终制造文件",
+      "size_bytes": 74080,
+      "modified_at": "2026-11-04T14:37:46.880980+08:00",
+      "sha256": "c9744f068fc8f776a660163361fc94f811c3e70608d3ac760685d0e67bc22664"
+    },
+    {
+      "path": "C:\\work\\PCB3_rework3.dsn",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "布线中间格式；之后存在人工修正与地铜，不是最终制造文件",
+      "size_bytes": 122723,
+      "modified_at": "2026-11-04T14:46:34.853164+08:00",
+      "sha256": "0da6d38519eda76a90954bbe3aee6b7b7f0f5d421195cca96dd70f6832bd530e"
+    },
+    {
+      "path": "C:\\work\\PCB3_routed.ses",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "布线中间格式；之后存在人工修正与地铜，不是最终制造文件",
+      "size_bytes": 63489,
+      "modified_at": "2026-11-04T14:34:18.999138+08:00",
+      "sha256": "7d341a466d3a6b709e5b23eded618f7a16e48b70bbbd1b8e34eae37adcc368e0"
+    },
+    {
+      "path": "C:\\work\\PCB3_routed2.ses",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "布线中间格式；之后存在人工修正与地铜，不是最终制造文件",
+      "size_bytes": 80992,
+      "modified_at": "2026-11-04T14:38:12.282861+08:00",
+      "sha256": "8551f021a327d8c9e074679483df94b75f0f9836a9a152b131c8743727b4fdbb"
+    },
+    {
+      "path": "C:\\work\\PCB3_routed3.ses",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "布线中间格式；之后存在人工修正与地铜，不是最终制造文件",
+      "size_bytes": 113299,
+      "modified_at": "2026-11-04T14:46:50.929856+08:00",
+      "sha256": "116247c525daf4bb5ee7ead740b0259b19b5df823d234648111a9c7b1754cda2"
+    },
+    {
+      "path": "C:\\work\\PCB3布局核对.md",
+      "exists": true,
+      "archive_recommendation": "private_project",
+      "note": "最终成果或关键证据；公开前检查个人路径、工程标识和库资源授权",
+      "size_bytes": 3644,
+      "modified_at": "2026-11-04T15:10:46.671335+08:00",
+      "sha256": "46b117df33540383f8f8b4d99ae78477b16a7fe8701869d916dd0a8254f7e35e"
+    },
+    {
+      "path": "C:\\work\\pcb_3v3_graph.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 2910,
+      "modified_at": "2026-11-04T14:48:06.622510+08:00",
+      "sha256": "bcec5499596a457be12ee1202e7699bfda6055fc9f595ffac304d8df0788bcfd"
+    },
+    {
+      "path": "C:\\work\\pcb_3v3_islands.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 23751,
+      "modified_at": "2026-11-04T14:58:53.019506+08:00",
+      "sha256": "583f63ab15ad5e369e547d8cff6a116b275730542fe475c04fb29ba3b219040c"
+    },
+    {
+      "path": "C:\\work\\pcb_adjust_route_readback.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 588,
+      "modified_at": "2026-11-04T14:39:57.647377+08:00",
+      "sha256": "a3dfb3017046c1b5bddc7a8c6cdc7d46d5c5cff013d80ebb356344bd1d250438"
+    },
+    {
+      "path": "C:\\work\\pcb_all_obstacles.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 102453,
+      "modified_at": "2026-11-04T14:52:09.895720+08:00",
+      "sha256": "7dd5284407fdaf79b551870ca4e394d66c7eb60d29a5ff45d1f458f2516501fa"
+    },
+    {
+      "path": "C:\\work\\pcb_apply_ground.py",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "存在失败或被替代的尝试；不作为推荐执行入口",
+      "size_bytes": 1080,
+      "modified_at": "2026-11-04T15:04:16.322190+08:00",
+      "sha256": "3b65ccaf9c2df9fe0691ac5a2a48326ba1220dff4d265f6cf253bfe72df12d4f"
+    },
+    {
+      "path": "C:\\work\\pcb_apply_ground_fill.py",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "存在失败或被替代的尝试；不作为推荐执行入口",
+      "size_bytes": 1691,
+      "modified_at": "2026-11-04T15:06:01.423878+08:00",
+      "sha256": "e0007c8a730d1b2cc8cc10b4bdbf3858c1ddfd2ce6bcfaa4af2b59d34b3acf2c"
+    },
+    {
+      "path": "C:\\work\\pcb_apply_ground_fill2.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 1766,
+      "modified_at": "2026-11-04T15:06:51.193566+08:00",
+      "sha256": "9f3010ccb62a96ee5f03efb877fa13525d4b50fa60d970f2f1ee0b47d0b43e19"
+    },
+    {
+      "path": "C:\\work\\pcb_apply_priority_routes.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 2483,
+      "modified_at": "2026-11-04T14:56:43.290828+08:00",
+      "sha256": "0d09b2112d37b42b0e209421c6906a4752d19384ace82bb28840ab8966048a70"
+    },
+    {
+      "path": "C:\\work\\pcb_apply_rework.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 1080,
+      "modified_at": "2026-11-04T14:22:33.755945+08:00",
+      "sha256": "7a0d62f5c01ecc9a0975d6ade760b131ab05e3c36739c87726833d444910c35d"
+    },
+    {
+      "path": "C:\\work\\pcb_apply_routes.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 2348,
+      "modified_at": "2026-11-04T14:39:57.725761+08:00",
+      "sha256": "e7c3719b506fd92abc0d473565abdc0b84139680419604b14be788050ef16505"
+    },
+    {
+      "path": "C:\\work\\pcb_apply_silk.py",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "存在失败或被替代的尝试；不作为推荐执行入口",
+      "size_bytes": 1394,
+      "modified_at": "2026-11-04T14:24:13.366123+08:00",
+      "sha256": "c59cfbe9712fc7dbf0d2b684a3a944ff62839a81dcb466d47594f7777ad078c0"
+    },
+    {
+      "path": "C:\\work\\pcb_apply_silk_native.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 943,
+      "modified_at": "2026-11-04T14:32:17.037151+08:00",
+      "sha256": "f1d274b82c5f92038ac626c1ce7306c8d805744051fe9157c68310c6ad99b5b1"
+    },
+    {
+      "path": "C:\\work\\pcb_apply_swd_power.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 553,
+      "modified_at": "2026-11-04T14:58:11.795521+08:00",
+      "sha256": "02386d55955deaa8bf1bd86da2483d8357a0ae34de2c1d5dc92277b3cc9d3d14"
+    },
+    {
+      "path": "C:\\work\\pcb_astar.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 2556,
+      "modified_at": "2026-11-04T14:53:02.542464+08:00",
+      "sha256": "5f26191b5ab775a5866332f4585c39109d1e79c69c29ff54be7151406ff01488"
+    },
+    {
+      "path": "C:\\work\\pcb_astar_prepare.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 1206,
+      "modified_at": "2026-11-04T14:49:12.793784+08:00",
+      "sha256": "37632c1480bea5759878867235f3b38d5e200168d3e41dcc12658d2c6b6b88c9"
+    },
+    {
+      "path": "C:\\work\\pcb_bbox.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 1879,
+      "modified_at": "2026-11-04T14:20:26.284252+08:00",
+      "sha256": "9014cff9d1e1d1b93c7bdba74389c2e39c06983cc170513def9dfa7a2a589369"
+    },
+    {
+      "path": "C:\\work\\pcb_before_autoroute_apply.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 298544,
+      "modified_at": "2026-11-04T14:34:04.263365+08:00",
+      "sha256": "73becb5bad37ec75ac8e10213db062398896c090732beec20b0cf4e43ca7335f"
+    },
+    {
+      "path": "C:\\work\\pcb_before_rules.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 199811,
+      "modified_at": "2026-11-04T14:05:13.013123+08:00",
+      "sha256": "dc07edc92db150be13d094b15847e7cf3fc0e1f1a90caaa65e9e759882b992e8"
+    },
+    {
+      "path": "C:\\work\\pcb_bottom_obstacles.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 18063,
+      "modified_at": "2026-11-04T14:58:10.941190+08:00",
+      "sha256": "2d07483da938bf98205ff5a87369f18152a6f367a1ec0bae3c520c3e258e1ada"
+    },
+    {
+      "path": "C:\\work\\pcb_check_vias.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 243,
+      "modified_at": "2026-11-04T14:40:58.825587+08:00",
+      "sha256": "d9b8cae06d85859d3fa6ddcb6f0ce8385faac160e3a6f55cce47542ed9c0f525"
+    },
+    {
+      "path": "C:\\work\\pcb_debug_connections.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 689,
+      "modified_at": "2026-11-04T14:41:32.174566+08:00",
+      "sha256": "77aaa5a32997e02c9ebf68e402929d81652d62475a6d34c8a09a9950b893fdea"
+    },
+    {
+      "path": "C:\\work\\pcb_debug_key.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 567,
+      "modified_at": "2026-11-04T14:41:46.676009+08:00",
+      "sha256": "75a2adb64701cc9c2076eacfc7636cfd4c23e688979ec6c6b2629472ef390ca8"
+    },
+    {
+      "path": "C:\\work\\pcb_device_clearance_check.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 216515,
+      "modified_at": "2026-11-04T14:34:58.754817+08:00",
+      "sha256": "9935f886963a4146c96ee58972844130003349e9007064cf11745dc6ede32e07"
+    },
+    {
+      "path": "C:\\work\\pcb_download_java.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 731,
+      "modified_at": "2026-11-04T14:31:49.033514+08:00",
+      "sha256": "240ddda2a32aab17f85c99f6fc257dfa3330c7575e8714e1ec4480a6132f0ce1"
+    },
+    {
+      "path": "C:\\work\\pcb_download_router.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 420,
+      "modified_at": "2026-11-04T14:19:21.337352+08:00",
+      "sha256": "7a1ccaec366ae3317f0b5ec6e66336c066af03d3fce1869cbb025fe0deec84d2"
+    },
+    {
+      "path": "C:\\work\\pcb_drc2.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 245411,
+      "modified_at": "2026-11-04T14:02:35.215818+08:00",
+      "sha256": "322187735104fa2905765ec52ee7e6589fa0239dc200a90f8765945378b12dfb"
+    },
+    {
+      "path": "C:\\work\\pcb_drc3.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 245142,
+      "modified_at": "2026-11-04T14:03:01.659525+08:00",
+      "sha256": "c2dd6b07f39e16ccab5fcb9b56165308cfc6d6441b511a57287038b47b082b7b"
+    },
+    {
+      "path": "C:\\work\\pcb_drc4.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 255257,
+      "modified_at": "2026-11-04T14:03:27.503280+08:00",
+      "sha256": "d7d302b6d314215f238b5773b9fe56445fd047752b511166e52ae92f6cae3cd2"
+    },
+    {
+      "path": "C:\\work\\pcb_dsn_initial.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 213531,
+      "modified_at": "2026-11-04T14:16:48.010866+08:00",
+      "sha256": "888470b1a884365d40da515c572161a92028a5a3827406fff326c5f21e285529"
+    },
+    {
+      "path": "C:\\work\\pcb_dsn_pad_mapping.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 43192,
+      "modified_at": "2026-11-04T14:31:13.198774+08:00",
+      "sha256": "ef7014b51add185bd983770469cfd251f221477993fb402e986e9d75d4fc0033"
+    },
+    {
+      "path": "C:\\work\\pcb_filled_check.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 622080,
+      "modified_at": "2026-11-04T15:06:54.123849+08:00",
+      "sha256": "b0e63d9e608dadea269f1741d89fde87fc923b6ba34f7b2dda2f14b6213fe012"
+    },
+    {
+      "path": "C:\\work\\pcb_find_power_setup.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 351,
+      "modified_at": "2026-11-04T14:52:09.616058+08:00",
+      "sha256": "75acc623674f1ae284eb78b51824e6a5f05c76932c60af95a500a1267acc1632"
+    },
+    {
+      "path": "C:\\work\\pcb_find_power_via.py",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "存在失败或被替代的尝试；不作为推荐执行入口",
+      "size_bytes": 1624,
+      "modified_at": "2026-11-04T14:51:49.722446+08:00",
+      "sha256": "6a51a99651bd13ce5a26f98f538913e3836256d339e42f67ce949bb6c9100dde"
+    },
+    {
+      "path": "C:\\work\\pcb_find_power_via2.py",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "存在失败或被替代的尝试；不作为推荐执行入口",
+      "size_bytes": 1580,
+      "modified_at": "2026-11-04T14:52:09.700631+08:00",
+      "sha256": "f7bc0b8bca05a452ed4cacac5633a431fcfa94e5194b1dd7987aec562760e998"
+    },
+    {
+      "path": "C:\\work\\pcb_find_via.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 301,
+      "modified_at": "2026-11-04T14:50:45.772699+08:00",
+      "sha256": "b4f723d443092b5c0003d5bd43f649c756321b2ea51a6cd48d29b335903b7be0"
+    },
+    {
+      "path": "C:\\work\\pcb_finish.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 1972,
+      "modified_at": "2026-11-04T14:14:20.751013+08:00",
+      "sha256": "ccbab6d5f15ebff0d008592735c9ec4ae91ec5cc04598d4b808e148a5ca9888a"
+    },
+    {
+      "path": "C:\\work\\pcb_fix_ground_style.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 350,
+      "modified_at": "2026-11-04T15:06:51.112338+08:00",
+      "sha256": "918839ed182fd3c4ebdbe7cae601b256893ea1db53b026462c61ec54d1d37fce"
+    },
+    {
+      "path": "C:\\work\\pcb_fix_power.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 1026,
+      "modified_at": "2026-11-04T14:45:26.297434+08:00",
+      "sha256": "6a06230994d28ef072bc1c1111cf8eefcdf3b82d90d29350fcd332445ba25d1c"
+    },
+    {
+      "path": "C:\\work\\pcb_fix_power_info.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 470,
+      "modified_at": "2026-11-04T14:44:05.944566+08:00",
+      "sha256": "6a8d78e906c72949d5f589a9c415fdcb9645fd55c7ed8bc107652a18c21f5e38"
+    },
+    {
+      "path": "C:\\work\\pcb_fix_refs.py",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "存在失败或被替代的尝试；不作为推荐执行入口",
+      "size_bytes": 411,
+      "modified_at": "2026-11-04T14:25:03.646603+08:00",
+      "sha256": "92811eea0a262b35213a37b59ca080af6141689c84fc195ab48c1a414645a402"
+    },
+    {
+      "path": "C:\\work\\pcb_fix_vias.js",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 528,
+      "modified_at": "2026-11-04T14:57:04.780096+08:00",
+      "sha256": "b70389b464eec6fa936ec14859091ed9e39e1f3538f692a432eeee6aac851fd9"
+    },
+    {
+      "path": "C:\\work\\pcb_footprints.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 740254,
+      "modified_at": "2026-11-04T14:19:21.643126+08:00",
+      "sha256": "3d3811b3a99a8e818436c3111a40adc07fd8172b6f8fc5f58115c6d06e1a9c69"
+    },
+    {
+      "path": "C:\\work\\pcb_generate_dsn.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 3110,
+      "modified_at": "2026-11-04T14:31:13.095895+08:00",
+      "sha256": "e9c09e91c38c0710ca97f0c4658dd7c1f19fe62b0adf50db5eac977bacf28207"
+    },
+    {
+      "path": "C:\\work\\pcb_geometry_bboxes.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 81552,
+      "modified_at": "2026-11-04T14:20:26.441118+08:00",
+      "sha256": "3d85a53e5f3657605af4477b8e58354e6fdf8b08cfb62947d77aec81b84301e5"
+    },
+    {
+      "path": "C:\\work\\pcb_geometry_initial.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 84256,
+      "modified_at": "2026-11-04T14:18:14.300280+08:00",
+      "sha256": "8ad951eaf4c04aa428c1a095cd42e02580a5c4917c464676e9082d3c93c76fb1"
+    },
+    {
+      "path": "C:\\work\\pcb_geometry_rework.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 287594,
+      "modified_at": "2026-11-04T14:29:54.170833+08:00",
+      "sha256": "52df204b81f0ff9eb9495c621df3d1debc604fd82623873ccadfb228852a943e"
+    },
+    {
+      "path": "C:\\work\\pcb_geometry_rework_bboxes.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 80866,
+      "modified_at": "2026-11-04T14:29:54.470120+08:00",
+      "sha256": "edf2e0902ba9d0ec1bd40c0b7ba1d3222cdf0692b50d18c47630609e077c9ab7"
+    },
+    {
+      "path": "C:\\work\\pcb_get_dsn_example.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 506,
+      "modified_at": "2026-11-04T14:25:58.480907+08:00",
+      "sha256": "887d1e0113c9af3da747caedd099fe5d819a2bfdcf7dcc98f37520363c6c092e"
+    },
+    {
+      "path": "C:\\work\\pcb_get_settings.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 616,
+      "modified_at": "2026-11-04T14:36:08.001415+08:00",
+      "sha256": "03065ef07e29a3eac8133f0da1b3a703301aae0a15246734e7e561404d8f3598"
+    },
+    {
+      "path": "C:\\work\\pcb_ground_clip.cjs",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 4122,
+      "modified_at": "2026-11-04T15:03:52.504794+08:00",
+      "sha256": "212150d0c5e32bd13d323797c07f121c599257079de2de62768ac0563f29c4ba"
+    },
+    {
+      "path": "C:\\work\\pcb_ground_final_check.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 396789,
+      "modified_at": "2026-11-04T15:04:19.286668+08:00",
+      "sha256": "969b19ab6017ef165ee9e79bbe3f177b04a0a212fede0388d02368b0b6df4fc8"
+    },
+    {
+      "path": "C:\\work\\pcb_ground_planes.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 439965,
+      "modified_at": "2026-11-04T15:03:52.798572+08:00",
+      "sha256": "213c1b08a429c3a587280a4461d7d57e3bebf22ac8fefaaa6eb1c42cc484f553"
+    },
+    {
+      "path": "C:\\work\\pcb_ground_via_relocate.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 7036,
+      "modified_at": "2026-11-04T14:50:35.990273+08:00",
+      "sha256": "d01d368ba7b44363b403a5b78ba6527456d7c2ead45cf40d3f07f174cbbdacb6"
+    },
+    {
+      "path": "C:\\work\\pcb_initial.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 9126,
+      "modified_at": "2026-11-04T13:55:42.121338+08:00",
+      "sha256": "526c4505595f45155a376bf86984bd5c1c70d14a739a709806bf1deb767bab97"
+    },
+    {
+      "path": "C:\\work\\pcb_inspect.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 482,
+      "modified_at": "2026-11-04T14:23:25.051111+08:00",
+      "sha256": "3089b9614225e53d994b32a0d958b00f53cae5039bb9797db594c3d2ea35069a"
+    },
+    {
+      "path": "C:\\work\\pcb_inspect_drc.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 345,
+      "modified_at": "2026-11-04T14:40:37.159410+08:00",
+      "sha256": "5da96a56c9d5ad9c9394069bd8596fdf0f61e3c4566bfb2bd4479ac00704e611"
+    },
+    {
+      "path": "C:\\work\\pcb_inspect_other.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 312,
+      "modified_at": "2026-11-04T14:34:04.345945+08:00",
+      "sha256": "46413372f9f37c103cd4a2dcd34b388e474a0eb9896a32294046aa14b268cb21"
+    },
+    {
+      "path": "C:\\work\\pcb_inspect_poured.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 489,
+      "modified_at": "2026-11-04T15:04:35.730138+08:00",
+      "sha256": "0c71363c57e593de7d666c976081a80ce469b1e9d0335a388adc25fab679e4f2"
+    },
+    {
+      "path": "C:\\work\\pcb_layout.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 1834,
+      "modified_at": "2026-11-04T13:59:47.092426+08:00",
+      "sha256": "f3b94dcce6b50ad2d09587d2a810fbe132139dcb0f7d78b412ed60a93ac42537"
+    },
+    {
+      "path": "C:\\work\\pcb_layout_check.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 399894,
+      "modified_at": "2026-11-04T14:01:20.322775+08:00",
+      "sha256": "fe81b228847ba4fde2518af9bf65d8b7533ce01024c7fa9dcb6b2b6908d956bc"
+    },
+    {
+      "path": "C:\\work\\pcb_layout_check_last.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 260219,
+      "modified_at": "2026-11-04T14:11:59.783499+08:00",
+      "sha256": "246956507c90b278e8940fdd94e60381fcd933ff4a6ee38360d4dac9466dcbb5"
+    },
+    {
+      "path": "C:\\work\\pcb_layout_final.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 543350,
+      "modified_at": "2026-11-04T14:12:57.179018+08:00",
+      "sha256": "dd01c0817184efad39a45ee389014b965a674709b91082b1f01f0b3453593a3f"
+    },
+    {
+      "path": "C:\\work\\pcb_layout_plan.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 2467,
+      "modified_at": "2026-11-04T13:59:50.510715+08:00",
+      "sha256": "eebc91d1001cef7a6d1256cd59f1be2b734d510059c1ce5f74e47d19fa7bdad0"
+    },
+    {
+      "path": "C:\\work\\pcb_measure_rework.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 1914,
+      "modified_at": "2026-11-04T14:29:54.293505+08:00",
+      "sha256": "19a23ae04d05c98517693188abb8bb8e8522c4b5495ddeaca3cd9426d07eec6b"
+    },
+    {
+      "path": "C:\\work\\pcb_pack_silk.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 1947,
+      "modified_at": "2026-11-04T14:23:56.004353+08:00",
+      "sha256": "7058b1a36f7595cc1d78eea2e0278e87a865137d16529adb87d5cc3a4b2e6d79"
+    },
+    {
+      "path": "C:\\work\\pcb_pads_initial.json",
+      "exists": true,
+      "archive_recommendation": "private_project",
+      "note": "最终成果或关键证据；公开前检查个人路径、工程标识和库资源授权",
+      "size_bytes": 30600,
+      "modified_at": "2026-11-04T13:56:17.111933+08:00",
+      "sha256": "da7190dc7a81ad392d23ae5a43cc26cc93c8ace90152348abcf85f142cb74806"
+    },
+    {
+      "path": "C:\\work\\pcb_pincoords.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 288,
+      "modified_at": "2026-11-04T14:27:03.266363+08:00",
+      "sha256": "3993c9bbf615b1fda8f4150fcd42c2f13462300efb27a0dd9e5d8bd0725b1353"
+    },
+    {
+      "path": "C:\\work\\pcb_pour_check.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 146,
+      "modified_at": "2026-11-04T14:59:37.285248+08:00",
+      "sha256": "53fbb8af13aaf93b8cdb60e5ee22794b9eac8af417464f15701d234a9c0960cb"
+    },
+    {
+      "path": "C:\\work\\pcb_pour_source.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 392943,
+      "modified_at": "2026-11-04T15:00:06.170864+08:00",
+      "sha256": "b359896d4be050e1c4520f4e400f931195d61033df8ada96578c38371e0a9e9a"
+    },
+    {
+      "path": "C:\\work\\pcb_power_escape.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 4,
+      "modified_at": "2026-11-04T14:53:02.940790+08:00",
+      "sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "path": "C:\\work\\pcb_prepare_apply.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 964,
+      "modified_at": "2026-11-04T14:38:53.259290+08:00",
+      "sha256": "1b074dfc751537ccc5bc129e599d969e79f2768ea92a3ca4cfc10f4d4da0f069"
+    },
+    {
+      "path": "C:\\work\\pcb_prepare_priority_apply.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 981,
+      "modified_at": "2026-11-04T14:56:43.290828+08:00",
+      "sha256": "48c23bba55971003085bc6a9b272cd204752cf8226c89ed897cabcec15700cf6"
+    },
+    {
+      "path": "C:\\work\\pcb_prepare_router2.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 1227,
+      "modified_at": "2026-11-04T14:37:46.788024+08:00",
+      "sha256": "b8dc81789bb6b5a2e720edd27421673e5dfb7cf085c7db9a76de80bfa219a916"
+    },
+    {
+      "path": "C:\\work\\pcb_prepare_router3.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 1060,
+      "modified_at": "2026-11-04T14:46:34.734686+08:00",
+      "sha256": "594a05afb243d902ca6e7dc451e12559c6847a03d950fe0c67a8f722eabb2a88"
+    },
+    {
+      "path": "C:\\work\\pcb_preroute.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 2127,
+      "modified_at": "2026-11-04T14:30:23.631068+08:00",
+      "sha256": "504ccf4451535de03c18c6d9cfd9978e5d9619131a72e2933e4e355fffa51ade"
+    },
+    {
+      "path": "C:\\work\\pcb_preroute_drc.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 216515,
+      "modified_at": "2026-11-04T14:54:24.046606+08:00",
+      "sha256": "4d9dc5e45ad2fa971c74991316c4d1b9857f54c1a2ac012bde18fb4bd9145f12"
+    },
+    {
+      "path": "C:\\work\\pcb_preroute_ids.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 840,
+      "modified_at": "2026-11-04T14:54:21.957596+08:00",
+      "sha256": "1b1b986d5e53a2d84c013892a601a5691f75e04a1a7df0502df8193747b806cd"
+    },
+    {
+      "path": "C:\\work\\pcb_preroutes.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 4268,
+      "modified_at": "2026-11-04T14:54:21.164888+08:00",
+      "sha256": "57fd8cbbd2761dca141793242e70ef1ab3263d0ec7af39fba529828fa91c6ae3"
+    },
+    {
+      "path": "C:\\work\\pcb_print_rules.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 248,
+      "modified_at": "2026-11-04T14:34:37.475213+08:00",
+      "sha256": "3fd03763ebb1375342060d48763bc68448ec94881ee90bbc7fec2c5ddfb6df06"
+    },
+    {
+      "path": "C:\\work\\pcb_priority_apply_setup.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 624,
+      "modified_at": "2026-11-04T14:56:43.226052+08:00",
+      "sha256": "966a6924f9729eb4a3cea7227d4954ef6fd8b6767dcd499e731611e35c1e4b56"
+    },
+    {
+      "path": "C:\\work\\pcb_priority_copper.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 308607,
+      "modified_at": "2026-11-04T14:55:49.076788+08:00",
+      "sha256": "a4faface733676060a4691230338d17d9ad8d91a304928f5e8b2ae303bfcc0e3"
+    },
+    {
+      "path": "C:\\work\\pcb_priority_dsn.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 1065,
+      "modified_at": "2026-11-04T14:55:49.153293+08:00",
+      "sha256": "899d3c9b025403999aaa1376fca78ceed85eeaf5176d17184666206a12d47328"
+    },
+    {
+      "path": "C:\\work\\pcb_priority_power.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 2352,
+      "modified_at": "2026-11-04T14:55:18.079880+08:00",
+      "sha256": "609f4e4e039475677c688674866c4990a9d11021373e72b87eec7914af7f7f3d"
+    },
+    {
+      "path": "C:\\work\\pcb_priority_power_drc.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 204719,
+      "modified_at": "2026-11-04T14:55:21.228567+08:00",
+      "sha256": "73d688693b91852b73c4fd74ee73b5249be5e526d38920ec8d60cce16c66ff26"
+    },
+    {
+      "path": "C:\\work\\pcb_priority_routed_drc.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 3072,
+      "modified_at": "2026-11-04T14:57:23.053319+08:00",
+      "sha256": "aedd6fd49cad055df453be84802e5e8094174c423db31988572693c887fdb9d6"
+    },
+    {
+      "path": "C:\\work\\pcb_read_final.js",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 972,
+      "modified_at": "2026-11-04T15:08:14.482337+08:00",
+      "sha256": "5d81406b3b04ad1c9cbd5b6b1a60989483cf89c1567991ed4b470f91ed4e896d"
+    },
+    {
+      "path": "C:\\work\\pcb_read_footprints.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 919,
+      "modified_at": "2026-11-04T14:18:53.715230+08:00",
+      "sha256": "0c41b59628dc64c26fc115eda2df0ed377f24863b44fc518c5f4eb2ac9a740b0"
+    },
+    {
+      "path": "C:\\work\\pcb_read_geometry.js",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 522,
+      "modified_at": "2026-11-04T14:29:53.961137+08:00",
+      "sha256": "bc8b524bbf29127973121f25f088860bc4e5226826e18ea9c9c68b9ac9ffea4d"
+    },
+    {
+      "path": "C:\\work\\pcb_remaining.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 207,
+      "modified_at": "2026-11-04T14:43:44.107667+08:00",
+      "sha256": "3f4b951dea9f15c5aec77b449afa7b97ae1a9d463402341540ca83e3b99a812f"
+    },
+    {
+      "path": "C:\\work\\pcb_remeasure_setup.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 290,
+      "modified_at": "2026-11-04T14:29:54.208943+08:00",
+      "sha256": "f4004e35514ab0cb589770c27f02da7dcbb11306b99feff200da0127f4d1b9e4"
+    },
+    {
+      "path": "C:\\work\\pcb_report_final.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 3381,
+      "modified_at": "2026-11-04T15:10:46.460563+08:00",
+      "sha256": "194791b191b5e7d3f105c287bc3c6aa018a5805ed91ff86b2bd7f68ae4a48f4b"
+    },
+    {
+      "path": "C:\\work\\pcb_restore_refs.py",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "存在失败或被替代的尝试；不作为推荐执行入口",
+      "size_bytes": 1005,
+      "modified_at": "2026-11-04T14:25:03.730807+08:00",
+      "sha256": "3d4ff8646ba9e4499e63d95ca0f864f9ef351c270797612152305b4caef95615"
+    },
+    {
+      "path": "C:\\work\\pcb_rework_initial.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 213531,
+      "modified_at": "2026-11-04T14:16:48.010866+08:00",
+      "sha256": "888470b1a884365d40da515c572161a92028a5a3827406fff326c5f21e285529"
+    },
+    {
+      "path": "C:\\work\\pcb_rework_plan.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 80896,
+      "modified_at": "2026-11-04T14:32:16.508895+08:00",
+      "sha256": "1eb34ee852896c52a7cde21716b83cbde140e6dcb1fc465e7dba0004d5579d78"
+    },
+    {
+      "path": "C:\\work\\pcb_rework_plan.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 1837,
+      "modified_at": "2026-11-04T14:22:33.584834+08:00",
+      "sha256": "5e8cd089ce9050afaf32e8de83c62977a8086acfbffc27f07554ab6afe1cb99f"
+    },
+    {
+      "path": "C:\\work\\pcb_rework_silk.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 3167,
+      "modified_at": "2026-11-04T14:32:17.019922+08:00",
+      "sha256": "533538f3230cbd8f7eb16141d8cc3f4f688f40eba910c5121e3ffdb4dbeabf0b"
+    },
+    {
+      "path": "C:\\work\\pcb_route_ops.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 100049,
+      "modified_at": "2026-11-04T14:56:43.411206+08:00",
+      "sha256": "a5c73432aa318f21de36bcb7711ff0d6dae8b5a6db67ade9083e12600dd9f649"
+    },
+    {
+      "path": "C:\\work\\pcb_route_swd_power.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 493,
+      "modified_at": "2026-11-04T14:58:10.995423+08:00",
+      "sha256": "29e451d15d486e756cdfe00163dd486c01e2536d92090b3869ae9243b749227d"
+    },
+    {
+      "path": "C:\\work\\pcb_routed_current.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 473588,
+      "modified_at": "2026-11-04T14:57:40.370887+08:00",
+      "sha256": "7597cf6585ce7fc5648af127c072b3297ff4988dedc2333db1cad63476c6a8a2"
+    },
+    {
+      "path": "C:\\work\\pcb_routed_source_check.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 409148,
+      "modified_at": "2026-11-04T14:40:58.781102+08:00",
+      "sha256": "e2ccea09833348e6f365edda1b11d79a19b078cb925f80458ac20fd1d10f4cd1"
+    },
+    {
+      "path": "C:\\work\\pcb_routing_drc1.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 141096,
+      "modified_at": "2026-11-04T14:56:58.224296+08:00",
+      "sha256": "8551be14be670eafeec71a6e7142d3bcf779a8e75a2ad7adc84a06b5dd882f76"
+    },
+    {
+      "path": "C:\\work\\pcb_routing_drc2.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 165231,
+      "modified_at": "2026-11-04T14:40:36.765538+08:00",
+      "sha256": "e6da8a5e4bf4bd32bfdc94636cefc77b690e91a55853fd8def5485b7a87e0a51"
+    },
+    {
+      "path": "C:\\work\\pcb_routing_drc3.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 8509,
+      "modified_at": "2026-11-04T14:43:34.630833+08:00",
+      "sha256": "5df5cd2ea8a2b2136553476f9c5dd69a21821eb80047a78af2d7a17d0ff88090"
+    },
+    {
+      "path": "C:\\work\\pcb_routing_drc4.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 7036,
+      "modified_at": "2026-11-04T14:45:28.717013+08:00",
+      "sha256": "024bb69c04169a7fbe58fba745fd141207d9e523ec118d9cc641ac5b08c91049"
+    },
+    {
+      "path": "C:\\work\\pcb_rules_check.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 23576,
+      "modified_at": "2026-11-04T14:04:12.537917+08:00",
+      "sha256": "e52c6616c0079c7da6827d4986207abacb586d55d16ab9f3263d18aa290778fd"
+    },
+    {
+      "path": "C:\\work\\pcb_rules_native.js",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 1945,
+      "modified_at": "2026-11-04T14:05:11.848774+08:00",
+      "sha256": "c48be5a5be0fa575229a45d545a696e8c190e59364103d72fadf626fcbcf85b1"
+    },
+    {
+      "path": "C:\\work\\pcb_sexp.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 1139,
+      "modified_at": "2026-11-04T14:36:42.824846+08:00",
+      "sha256": "993a73228420e64602074388b1108da62ddcbdbbfe77ffcfac240b3ab05f6c46"
+    },
+    {
+      "path": "C:\\work\\pcb_silk.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 1177,
+      "modified_at": "2026-11-04T14:07:27.356270+08:00",
+      "sha256": "99f0ffbf94a070c28c5953c4dfc889b4aa5e220b5c87572e4c77e9ce77042f69"
+    },
+    {
+      "path": "C:\\work\\pcb_silk_refs.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 4016,
+      "modified_at": "2026-11-04T14:04:43.838089+08:00",
+      "sha256": "bf2eeefd78a377a8551bede4e19b8ac75c4267abfd2879c0d27c0254d6156113"
+    },
+    {
+      "path": "C:\\work\\pcb_source_initial.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 212568,
+      "modified_at": "2026-11-04T13:56:00.051231+08:00",
+      "sha256": "968c43ffaa607bb5824fa01e13d76f367985a162b70bc1eddc2cc0159da0bd8b"
+    },
+    {
+      "path": "C:\\work\\pcb_swd_power_drc.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 1620,
+      "modified_at": "2026-11-04T14:58:14.784230+08:00",
+      "sha256": "edfaf848e579500f5034d62ca502ac2bd69883b0eba1ea5d971d7afe2d948ef4"
+    },
+    {
+      "path": "C:\\work\\pcb_swd_power_path.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 1308,
+      "modified_at": "2026-11-04T14:58:11.782231+08:00",
+      "sha256": "62488368ecf24f64ab97e1ba134b895a2da0dc44af8c86b3294e8300f2d797e8"
+    },
+    {
+      "path": "C:\\work\\pcb_swd_short_drc.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 243,
+      "modified_at": "2026-11-04T14:58:55.298297+08:00",
+      "sha256": "3bd0277822a9c2b8a68b6fb0b25f2b9d7688c99cfbb1407b92314c29af3b9218"
+    },
+    {
+      "path": "C:\\work\\pcb_swd_simplify.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 745,
+      "modified_at": "2026-11-04T14:58:53.034784+08:00",
+      "sha256": "e7ae9a760424a59ee15bd8a9a2a50ef0e0ced51bda6415c2525e2fe10434e3eb"
+    },
+    {
+      "path": "C:\\work\\pcb_swd_simplify_check.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 205,
+      "modified_at": "2026-11-04T14:58:52.895695+08:00",
+      "sha256": "0ec88280eac0127ab47fa0c8470c39df5b063e5c5832cb0d697606c96d7158ac"
+    },
+    {
+      "path": "C:\\work\\pcb_tools_setup.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 441,
+      "modified_at": "2026-11-04T14:19:11.695594+08:00",
+      "sha256": "1963974ad8e61e2572f2fcdf2a3ee66984fc2cb727e5f883a06af96f4535ec1d"
+    },
+    {
+      "path": "C:\\work\\pcb_valid_power_via.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 35523,
+      "modified_at": "2026-11-04T14:52:12.767081+08:00",
+      "sha256": "1170be2d5b33fab17690ceefd50ca7dce268effa5b5e36a993172e840548d294"
+    },
+    {
+      "path": "C:\\work\\pcb_verify_final.py",
+      "exists": true,
+      "archive_recommendation": "refactor_before_reuse",
+      "note": "会话工作脚本；需核对输入、硬编码路径、目标文档和修改风险",
+      "size_bytes": 1255,
+      "modified_at": "2026-11-04T15:08:17.370625+08:00",
+      "sha256": "6aa64a628c360992a39217afe41e8c129f2abee8c1e67280287210789b320e62"
+    },
+    {
+      "path": "C:\\work\\pcb_via_fix_check.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 409148,
+      "modified_at": "2026-11-04T14:40:58.781102+08:00",
+      "sha256": "e2ccea09833348e6f365edda1b11d79a19b078cb925f80458ac20fd1d10f4cd1"
+    },
+    {
+      "path": "C:\\work\\pcb_via_test.json",
+      "exists": true,
+      "archive_recommendation": "historical_only",
+      "note": "阶段快照或计算中间数据；根据用途筛选，不直接当最终成果",
+      "size_bytes": 153374,
+      "modified_at": "2026-11-04T14:43:05.657856+08:00",
+      "sha256": "84d1e2e7863395330c6a55ac51a5340d75cb8baf2f7bac28ed5fae155a71ab5f"
+    },
+    {
+      "path": "C:\\work\\pcb_written_routes.json",
+      "exists": true,
+      "archive_recommendation": "exclude_generated",
+      "note": "临时、覆盖式输出、日志或重复副本；不作为最终验收",
+      "size_bytes": 57490,
+      "modified_at": "2026-11-04T14:56:56.479378+08:00",
+      "sha256": "1600f8e2567b6fa0e1067b1ec412703bf9f2b01de33ebea1aabbb52a35599eb9"
+    },
+    {
+      "path": "C:\\work\\PROJECT_HANDOFF.md",
+      "exists": true,
+      "archive_recommendation": "private_project",
+      "note": "最终成果或关键证据；公开前检查个人路径、工程标识和库资源授权",
+      "size_bytes": 29423,
+      "modified_at": "2026-11-04T15:40:51.257828+08:00",
+      "sha256": "6842b0abe42d23218e752d9d8e4a79883ba20965a408436068def6722d8b1b58"
+    },
+    {
+      "path": "C:\\work\\密码门禁_方案与成本估算.md",
+      "exists": true,
+      "archive_recommendation": "historical_report",
+      "note": "保留阶段日期；部分 PCB 进度描述已被最终记录更新",
+      "size_bytes": 4079,
+      "modified_at": "2026-11-04T13:30:49.613763+08:00",
+      "sha256": "ec7a1d4e8586694ae5558478ff2aa185d487ae21fac94eec39915835a3ed8e5e"
+    },
+    {
+      "path": "C:\\work\\密码门禁_绘制报告.md",
+      "exists": true,
+      "archive_recommendation": "historical_report",
+      "note": "保留阶段日期；部分 PCB 进度描述已被最终记录更新",
+      "size_bytes": 4486,
+      "modified_at": "2026-11-04T01:08:32.430514+08:00",
+      "sha256": "bb64bf4b2b085755506a9750d8fdee0914f5d054e2db822ebcbde9d4249f4389"
+    },
+    {
+      "path": "C:\\work\\密码门禁_网表.json",
+      "exists": true,
+      "archive_recommendation": "private_project",
+      "note": "最终成果或关键证据；公开前检查个人路径、工程标识和库资源授权",
+      "size_bytes": 126617,
+      "modified_at": "2026-11-04T01:07:28.130374+08:00",
+      "sha256": "1456a0781d57e93c93174c7a894c6fca08fa80002c2275b33dab69a9d8339599"
+    }
+  ],
+  "external_files": [
+    {
+      "path": "C:\\Users\\REDMI\\Desktop\\2026电子系统设计题目-WJB.pdf",
+      "exists": true,
+      "archive_recommendation": "external_reference",
+      "note": "仅记录存在、路径与哈希；不在本次复制或默认公开，许可按交接文档核对",
+      "size_bytes": 287943,
+      "modified_at": "2026-11-03T15:47:12.912552+08:00",
+      "sha256": "94c7002ba758f1f6a20b32291e62fb8e2245b8f67c392767363d96f21bc26776"
+    },
+    {
+      "path": "C:\\Users\\REDMI\\Downloads\\2026电子系统设计第四次课件（题目分析）.pdf",
+      "exists": true,
+      "archive_recommendation": "external_reference",
+      "note": "仅记录存在、路径与哈希；不在本次复制或默认公开，许可按交接文档核对",
+      "size_bytes": 5440743,
+      "modified_at": "2026-11-03T15:46:50.445779+08:00",
+      "sha256": "0083b6ec916864a9d1bfb808a6183688088025cec0f87f057c737a0a35d3d652"
+    },
+    {
+      "path": "C:\\Users\\REDMI\\Desktop\\AI_WORK\\access_control\\嘉立创AI工作流参考.md",
+      "exists": true,
+      "archive_recommendation": "external_reference",
+      "note": "仅记录存在、路径与哈希；不在本次复制或默认公开，许可按交接文档核对",
+      "size_bytes": 8945,
+      "modified_at": "2026-11-04T00:27:41.437243+08:00",
+      "sha256": "b2b126e5db48460cce8d21681d94e71a09f5db9f4a9cc7d77612b636f055b93b"
+    },
+    {
+      "path": "C:\\Users\\REDMI\\.cline\\skills\\easyeda-api\\SKILL.md",
+      "exists": true,
+      "archive_recommendation": "external_reference",
+      "note": "仅记录存在、路径与哈希；不在本次复制或默认公开，许可按交接文档核对",
+      "size_bytes": 31547,
+      "modified_at": "2026-08-27T02:27:34+08:00",
+      "sha256": "6c4f6e8e3252296075a74c4f87a95455d0f4b01a8d4d6c1d4f5921727fd1b2b1"
+    },
+    {
+      "path": "C:\\Users\\REDMI\\.cline\\skills\\easyeda-api\\scripts\\bridge-server.mjs",
+      "exists": true,
+      "archive_recommendation": "external_reference",
+      "note": "仅记录存在、路径与哈希；不在本次复制或默认公开，许可按交接文档核对",
+      "size_bytes": 18241,
+      "modified_at": "2026-08-27T02:27:34+08:00",
+      "sha256": "33cbd91c5b36077a3e30aab2fa2df5402637fe612fa9ab8fe2e8473ce2024d96"
+    },
+    {
+      "path": "C:\\work\\pcb-tools\\geom\\package.json",
+      "exists": true,
+      "archive_recommendation": "external_reference",
+      "note": "仅记录存在、路径与哈希；不在本次复制或默认公开，许可按交接文档核对",
+      "size_bytes": 56,
+      "modified_at": "2026-11-04T15:02:26.049350+08:00",
+      "sha256": "797bef8d650d488ef926d220b1c5f27f07da6b75252e9671207eb3369a9ad40f"
+    },
+    {
+      "path": "C:\\work\\pcb-tools\\geom\\package-lock.json",
+      "exists": true,
+      "archive_recommendation": "external_reference",
+      "note": "仅记录存在、路径与哈希；不在本次复制或默认公开，许可按交接文档核对",
+      "size_bytes": 458,
+      "modified_at": "2026-11-04T15:02:26.052352+08:00",
+      "sha256": "11dfb79e6bbe1d9a564787dd9a2e8369ad4571bafdcccb2dbcf5a963ed48d138"
+    }
+  ],
+  "excluded_directories": [
+    "C:/work/node_modules",
+    "C:/work/src",
+    "C:/work/pcb-tools 的发行二进制及运行时",
+    "C:/work/__pycache__",
+    "C:/work/tmp",
+    "C:/work/en"
+  ],
+  "not_eda_project": [
+    "C:/work/package.json",
+    "C:/work/.env.example",
+    "C:/work/src"
+  ]
+}

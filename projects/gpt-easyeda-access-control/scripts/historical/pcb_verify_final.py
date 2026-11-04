@@ -1,0 +1,6 @@
+import json,pathlib,collections
+root=pathlib.Path('C:/work');f=json.loads((root/'PCB3_final_verified.json').read_text(encoding='utf8'))['result'];a=json.loads((root/'pcb_pads_initial.json').read_text(encoding='utf8'))['result'];fp=lambda ps:collections.Counter((p['ref'],q['n'],q['net']) for p in ps for q in p['pads']);assert fp(a)==fp(f['parts']);assert f['drcPassed'] is True and not f['drc'];assert f['saved'] is True;assert len(f['parts'])==56 and sum(len(p['pads']) for p in f['parts'])==191;assert len(f['references'])==56 and all(a['visible'] for a in f['references']);assert all(p['footprint']['name'] in ['C0805','R0805'] for p in f['parts'] if p['ref'].startswith(('R','C')));records=[]
+for l in f['source'].splitlines():
+ h,d=l.split('||');records.append((json.loads(h),json.loads(d.rstrip('|'))))
+counts=collections.Counter(h['type'] for h,d in records);assert counts['FILL']==2 and counts['VIA']==51
+(root/'PCB3_final_source.txt').write_text(f['source'],encoding='utf8');print('VERIFIED',len(f['parts']),'parts;',len(set(q['net'] for p in f['parts'] for q in p['pads'] if q['net'])),'nets;',counts['LINE']-4,'copper segments;',counts['VIA'],'vias;',counts['FILL'],'ground fills; 56 visible refs; DRC true; saved true; pad nets unchanged.')

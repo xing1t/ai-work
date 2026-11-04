@@ -1,0 +1,28 @@
+# 凭据、客户与未授权原件
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials/
+secrets/
+private/
+customer-data/
+# 缓存、运行时、安装文件
+node_modules/
+__pycache__/
+*.py[cod]
+*.log
+.cache/
+tmp/
+downloads/
+*.jar
+*.exe
+*.msi
+*.zip
+*.7z
+jre*/
+runtime/
+.DS_Store
+Thumbs.db

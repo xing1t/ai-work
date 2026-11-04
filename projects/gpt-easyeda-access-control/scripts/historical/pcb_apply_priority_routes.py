@@ -1,0 +1,12 @@
+import json,pathlib
+from eda_call import call
+root=pathlib.Path('C:/work');ops=json.loads((root/'pcb_route_ops.json').read_text(encoding='utf8'))
+call("const vias=await eda.pcb_PrimitiveVia.getAll();if(vias.length)await eda.pcb_PrimitiveVia.delete(vias.map(v=>v.getState_PrimitiveId()));const cs=await eda.pcb_PrimitiveComponent.getAll();if(cs.length!==56)throw Error('Part count changed');const ls=(await eda.pcb_PrimitiveLine.getAll()).filter(p=>[1,2].includes(p.getState_Layer()));const ids=ls.map(p=>p.getState_PrimitiveId());if(ids.length)await eda.pcb_PrimitiveLine.delete(ids);return {deleted:ids.length,remainingCopperLines:(await eda.pcb_PrimitiveLine.getAll()).filter(p=>[1,2].includes(p.getState_Layer())).length};")
+written=[]
+for start in range(0,len(ops),10):
+ batch=ops[start:start+10]
+ for o in batch:
+  if o['kind']=='path' and o['width']<.15:o['width']=.15
+ code='const ops='+json.dumps(batch)+";const out=[],ls=[],vs=[];for(const o of ops){if(o.kind==='via'){const p=await eda.pcb_PrimitiveVia.create(o.net,o.x/.0254,o.y/.0254,.3/.0254,.6/.0254);if(!p)throw Error('Via create failed');const id=p.getState_PrimitiveId();vs.push(id);out.push({id,kind:'via',net:o.net});}else{for(let i=1;i<o.points.length;i++){const [x1,y1]=o.points[i-1],[x2,y2]=o.points[i];if(Math.hypot(x2-x1,y2-y1)<.00001)continue;const p=await eda.pcb_PrimitiveLine.create(o.net,o.layer,x1/.0254,y1/.0254,x2/.0254,y2/.0254,o.width/.0254);if(!p)throw Error('Trace create failed');const id=p.getState_PrimitiveId();ls.push(id);out.push({id,kind:'line',net:o.net});}}}const rl=ls.length?await eda.pcb_PrimitiveLine.get(ls):[],rv=vs.length?await eda.pcb_PrimitiveVia.get(vs):[];const al=(await eda.pcb_PrimitiveLine.getAll()).filter(p=>[1,2].includes(p.getState_Layer())),av=await eda.pcb_PrimitiveVia.getAll();return {out,readback:{linesFoundById:rl.length,viasFoundById:rv.length,totalLines:al.length,totalVias:av.length,nets:[...new Set(al.map(p=>p.getState_Net()))]}};"
+ r=call(code);written+=r['out'];(root/'pcb_written_routes.json').write_text(json.dumps(written,indent=2),encoding='utf8');print('Batch',start//10+1,'verified',r['readback'],flush=True)
+call('return {drc:await eda.pcb_Drc.check(true,false,true),lineCount:(await eda.pcb_PrimitiveLine.getAll()).filter(p=>[1,2].includes(p.getState_Layer())).length,viaCount:(await eda.pcb_PrimitiveVia.getAll()).length};');(root/'pcb_routing_drc1.json').write_text((root/'eda_last.json').read_text(encoding='utf8'),encoding='utf8')

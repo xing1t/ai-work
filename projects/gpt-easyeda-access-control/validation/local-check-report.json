@@ -1,0 +1,26 @@
+{
+  "mode": "read-only offline; no EDA, no network",
+  "copied_originals_checked": 29,
+  "working_files": 57,
+  "working_bytes": 3627779,
+  "relative_links_checked": 57,
+  "pcb_counts": {
+    "parts": 56,
+    "nonempty_nets": 41,
+    "pad_entries": 191,
+    "copper_segments": 638,
+    "vias": 51,
+    "fills": 2
+  },
+  "schematic_connections_checked": 173,
+  "schematic_mismatches": 0,
+  "source_byte_equal": false,
+  "source_CRLF_LF_normalized_equal": true,
+  "staged_files": 57,
+  "index_bytes_check": "passed",
+  "credential_scan": "known token/private-key and assigned-secret patterns; no matches",
+  "errors": [],
+  "passed": true,
+  "date": "2026-11-04 Asia/Shanghai",
+  "git_state": "57 files staged and verified for initial commit; author configured locally with GitHub noreply; target xing1t/ai-work public; authentication pending"
+}

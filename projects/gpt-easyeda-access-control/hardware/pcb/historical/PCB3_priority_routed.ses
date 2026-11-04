@@ -1,0 +1,3355 @@
+(session "PCB3_priority"
+  (base_design "PCB3_priority")
+  (placement
+    (resolution um 10)
+    (component IP000
+      (place P000 419989 559994 front 0)
+    )
+    (component IP001
+      (place P001 419989 540004 front 0)
+    )
+    (component IP002
+      (place P002 50013 145009 front 0)
+    )
+    (component IP003
+      (place P003 170002 124917 front 0)
+    )
+    (component IP004
+      (place P004 50013 115011 front 0)
+    )
+    (component IP005
+      (place P005 289992 115011 front 0)
+    )
+    (component IP006
+      (place P006 289992 145009 front 0)
+    )
+    (component IP007
+      (place P007 678002 129997 front 0)
+    )
+    (component IP008
+      (place P008 602005 129997 front 0)
+    )
+    (component IP009
+      (place P009 419989 510007 front 0)
+    )
+    (component IP010
+      (place P010 419989 489991 front 0)
+    )
+    (component IP011
+      (place P011 340004 559994 front 0)
+    )
+    (component IP012
+      (place P012 340004 540004 front 0)
+    )
+    (component IP013
+      (place P013 310007 499999 front 0)
+    )
+    (component IP014
+      (place P014 289992 499999 front 0)
+    )
+    (component IP015
+      (place P015 237998 234010 front 0)
+    )
+    (component IP016
+      (place P016 237998 213995 front 0)
+    )
+    (component IP017
+      (place P017 345008 210007 front 0)
+    )
+    (component IP018
+      (place P018 324993 210007 front 0)
+    )
+    (component IP019
+      (place P019 380009 315011 front 0)
+    )
+    (component IP020
+      (place P020 380009 294996 front 0)
+    )
+    (component IP021
+      (place P021 234010 324993 front 0)
+    )
+    (component IP022
+      (place P022 234010 305003 front 0)
+    )
+    (component IP023
+      (place P023 237998 278994 front 0)
+    )
+    (component IP024
+      (place P024 237998 259004 front 0)
+    )
+    (component IP025
+      (place P025 278003 353009 front 0)
+    )
+    (component IP026
+      (place P026 257988 353009 front 0)
+    )
+    (component IP027
+      (place P027 332003 353009 front 0)
+    )
+    (component IP028
+      (place P028 311988 353009 front 0)
+    )
+    (component IP029
+      (place P029 419989 364998 front 0)
+    )
+    (component IP030
+      (place P030 419989 345008 front 0)
+    )
+    (component IP031
+      (place P031 364998 384988 front 0)
+    )
+    (component IP032
+      (place P032 364998 405003 front 0)
+    )
+    (component IP033
+      (place P033 200000 364998 front 0)
+    )
+    (component IP034
+      (place P034 200000 345008 front 0)
+    )
+    (component IP035
+      (place P035 405003 459994 front 0)
+    )
+    (component IP036
+      (place P036 405003 440004 front 0)
+    )
+    (component IP037
+      (place P037 789991 264998 front 0)
+    )
+    (component IP038
+      (place P038 770001 264998 front 0)
+    )
+    (component IP039
+      (place P039 539648 284988 front 0)
+    )
+    (component IP040
+      (place P040 500355 284988 front 0)
+    )
+    (component IP041
+      (place P041 679653 284988 front 0)
+    )
+    (component IP042
+      (place P042 640359 284988 front 0)
+    )
+    (component IP043
+      (place P043 639648 224993 front 0)
+    )
+    (component IP044
+      (place P044 600354 224993 front 0)
+    )
+    (component IP045
+      (place P045 804494 129997 front 0)
+    )
+    (component IP046
+      (place P046 825500 129997 front 0)
+    )
+    (component IP047
+      (place P047 129489 429997 front 0)
+    )
+    (component IP048
+      (place P048 150495 429997 front 0)
+    )
+    (component IP049
+      (place P049 619989 547294 front 0)
+    )
+    (component IP050
+      (place P050 619989 572694 front 0)
+    )
+    (component IP051
+      (place P051 40005 271094 front 0)
+    )
+    (component IP052
+      (place P052 40005 296494 front 0)
+    )
+    (component IP053
+      (place P053 40005 321894 front 0)
+    )
+    (component IP054
+      (place P054 40005 347294 front 0)
+    )
+    (component IP055
+      (place P055 40005 372694 front 0)
+    )
+    (component IP056
+      (place P056 40005 398094 front 0)
+    )
+    (component IP057
+      (place P057 40005 423494 front 0)
+    )
+    (component IP058
+      (place P058 40005 448894 front 0)
+    )
+    (component IP059
+      (place P059 137389 559994 front 0)
+    )
+    (component IP060
+      (place P060 111989 559994 front 0)
+    )
+    (component IP061
+      (place P061 86589 559994 front 0)
+    )
+    (component IP062
+      (place P062 331902 40005 front 0)
+    )
+    (component IP063
+      (place P063 357302 40005 front 0)
+    )
+    (component IP064
+      (place P064 382702 40005 front 0)
+    )
+    (component IP065
+      (place P065 408102 40005 front 0)
+    )
+    (component IP066
+      (place P066 211912 570001 front 0)
+    )
+    (component IP067
+      (place P067 237312 570001 front 0)
+    )
+    (component IP068
+      (place P068 262712 570001 front 0)
+    )
+    (component IP069
+      (place P069 288112 570001 front 0)
+    )
+    (component IP070
+      (place P070 815010 307289 front 0)
+    )
+    (component IP071
+      (place P071 815010 332689 front 0)
+    )
+    (component IP072
+      (place P072 579984 531012 front 0)
+    )
+    (component IP073
+      (place P073 519989 389001 front 0)
+    )
+    (component IP074
+      (place P074 459994 408991 front 0)
+    )
+    (component IP075
+      (place P075 580009 408991 front 0)
+    )
+    (component IP076
+      (place P076 459994 531012 front 0)
+    )
+    (component IP077
+      (place P077 779983 531012 front 0)
+    )
+    (component IP078
+      (place P078 719988 389001 front 0)
+    )
+    (component IP079
+      (place P079 659994 408991 front 0)
+    )
+    (component IP080
+      (place P080 780009 408991 front 0)
+    )
+    (component IP081
+      (place P081 659994 531012 front 0)
+    )
+    (component IP082
+      (place P082 580009 339496 front 0)
+    )
+    (component IP083
+      (place P083 580009 320497 front 0)
+    )
+    (component IP084
+      (place P084 599999 329997 front 0)
+    )
+    (component IP085
+      (place P085 719988 339496 front 0)
+    )
+    (component IP086
+      (place P086 719988 320497 front 0)
+    )
+    (component IP087
+      (place P087 740004 329997 front 0)
+    )
+    (component IP088
+      (place P088 529996 139497 front 0)
+    )
+    (component IP089
+      (place P089 529996 120498 front 0)
+    )
+    (component IP090
+      (place P090 550012 129997 front 0)
+    )
+    (component IP091
+      (place P091 750011 219507 front 0)
+    )
+    (component IP092
+      (place P092 750011 200508 front 0)
+    )
+    (component IP093
+      (place P093 770001 210007 front 0)
+    )
+    (component IP094
+      (place P094 210007 399999 front 0)
+    )
+    (component IP095
+      (place P095 189992 399999 front 0)
+    )
+    (component IP096
+      (place P096 408000 284988 front 0)
+    )
+    (component IP097
+      (place P097 408000 264998 front 0)
+    )
+    (component IP098
+      (place P098 194996 264998 front 0)
+    )
+    (component IP099
+      (place P099 194996 245008 front 0)
+    )
+    (component IP100
+      (place P100 305003 459994 front 0)
+    )
+    (component IP101
+      (place P101 305003 440004 front 0)
+    )
+    (component IP102
+      (place P102 270002 459994 front 0)
+    )
+    (component IP103
+      (place P103 270002 440004 front 0)
+    )
+    (component IP104
+      (place P104 550012 329997 front 0)
+    )
+    (component IP105
+      (place P105 529996 329997 front 0)
+    )
+    (component IP106
+      (place P106 599999 284988 front 0)
+    )
+    (component IP107
+      (place P107 580009 284988 front 0)
+    )
+    (component IP108
+      (place P108 689991 329997 front 0)
+    )
+    (component IP109
+      (place P109 670001 329997 front 0)
+    )
+    (component IP110
+      (place P110 740004 284988 front 0)
+    )
+    (component IP111
+      (place P111 719988 284988 front 0)
+    )
+    (component IP112
+      (place P112 499999 129997 front 0)
+    )
+    (component IP113
+      (place P113 480009 129997 front 0)
+    )
+    (component IP114
+      (place P114 550012 89992 front 0)
+    )
+    (component IP115
+      (place P115 529996 89992 front 0)
+    )
+    (component IP116
+      (place P116 815010 194996 front 0)
+    )
+    (component IP117
+      (place P117 815010 175006 front 0)
+    )
+    (component IP118
+      (place P118 719988 219989 front 0)
+    )
+    (component IP119
+      (place P119 699999 219989 front 0)
+    )
+    (component IP120
+      (place P120 770001 170002 front 0)
+    )
+    (component IP121
+      (place P121 750011 170002 front 0)
+    )
+    (component IP122
+      (place P122 200000 429997 front 0)
+    )
+    (component IP123
+      (place P123 180010 429997 front 0)
+    )
+    (component IP124
+      (place P124 178156 524993 front 0)
+    )
+    (component IP125
+      (place P125 221844 524993 front 0)
+    )
+    (component IP126
+      (place P126 337490 322504 front 0)
+    )
+    (component IP127
+      (place P127 332511 322504 front 0)
+    )
+    (component IP128
+      (place P128 327508 322504 front 0)
+    )
+    (component IP129
+      (place P129 322504 322504 front 0)
+    )
+    (component IP130
+      (place P130 317500 322504 front 0)
+    )
+    (component IP131
+      (place P131 312496 322504 front 0)
+    )
+    (component IP132
+      (place P132 307492 322504 front 0)
+    )
+    (component IP133
+      (place P133 302489 322504 front 0)
+    )
+    (component IP134
+      (place P134 297510 322504 front 0)
+    )
+    (component IP135
+      (place P135 292506 322504 front 0)
+    )
+    (component IP136
+      (place P136 287503 322504 front 0)
+    )
+    (component IP137
+      (place P137 282499 322504 front 0)
+    )
+    (component IP138
+      (place P138 267513 307492 front 0)
+    )
+    (component IP139
+      (place P139 267513 302489 front 0)
+    )
+    (component IP140
+      (place P140 267513 297510 front 0)
+    )
+    (component IP141
+      (place P141 267513 292506 front 0)
+    )
+    (component IP142
+      (place P142 267513 287503 front 0)
+    )
+    (component IP143
+      (place P143 267513 282499 front 0)
+    )
+    (component IP144
+      (place P144 267513 277495 front 0)
+    )
+    (component IP145
+      (place P145 267513 272491 front 0)
+    )
+    (component IP146
+      (place P146 267513 267513 front 0)
+    )
+    (component IP147
+      (place P147 267513 262509 front 0)
+    )
+    (component IP148
+      (place P148 267513 257505 front 0)
+    )
+    (component IP149
+      (place P149 267513 252501 front 0)
+    )
+    (component IP150
+      (place P150 282499 237490 front 0)
+    )
+    (component IP151
+      (place P151 287503 237490 front 0)
+    )
+    (component IP152
+      (place P152 292506 237490 front 0)
+    )
+    (component IP153
+      (place P153 297510 237490 front 0)
+    )
+    (component IP154
+      (place P154 302489 237490 front 0)
+    )
+    (component IP155
+      (place P155 307492 237490 front 0)
+    )
+    (component IP156
+      (place P156 312496 237490 front 0)
+    )
+    (component IP157
+      (place P157 317500 237490 front 0)
+    )
+    (component IP158
+      (place P158 322504 237490 front 0)
+    )
+    (component IP159
+      (place P159 327508 237490 front 0)
+    )
+    (component IP160
+      (place P160 332511 237490 front 0)
+    )
+    (component IP161
+      (place P161 337490 237490 front 0)
+    )
+    (component IP162
+      (place P162 352501 252501 front 0)
+    )
+    (component IP163
+      (place P163 352501 257505 front 0)
+    )
+    (component IP164
+      (place P164 352501 262509 front 0)
+    )
+    (component IP165
+      (place P165 352501 267513 front 0)
+    )
+    (component IP166
+      (place P166 352501 272491 front 0)
+    )
+    (component IP167
+      (place P167 352501 277495 front 0)
+    )
+    (component IP168
+      (place P168 352501 282499 front 0)
+    )
+    (component IP169
+      (place P169 352501 287503 front 0)
+    )
+    (component IP170
+      (place P170 352501 292506 front 0)
+    )
+    (component IP171
+      (place P171 352501 297510 front 0)
+    )
+    (component IP172
+      (place P172 352501 302489 front 0)
+    )
+    (component IP173
+      (place P173 352501 307492 front 0)
+    )
+    (component IP174
+      (place P174 367005 559486 front 0)
+    )
+    (component IP175
+      (place P175 367005 540512 front 0)
+    )
+    (component IP176
+      (place P176 392989 540512 front 0)
+    )
+    (component IP177
+      (place P177 392989 549986 front 0)
+    )
+    (component IP178
+      (place P178 392989 559486 front 0)
+    )
+    (component IP179
+      (place P179 379044 497053 front 0)
+    )
+    (component IP180
+      (place P180 366344 497053 front 0)
+    )
+    (component IP181
+      (place P181 353644 497053 front 0)
+    )
+    (component IP182
+      (place P182 340944 497053 front 0)
+    )
+    (component IP183
+      (place P183 379044 442951 front 0)
+    )
+    (component IP184
+      (place P184 366344 442951 front 0)
+    )
+    (component IP185
+      (place P185 353644 442951 front 0)
+    )
+    (component IP186
+      (place P186 340944 442951 front 0)
+    )
+    (component IP187
+      (place P187 270510 394995 front 0)
+    )
+    (component IP188
+      (place P188 319507 394995 front 0)
+    )
+    (component IP189
+      (place P189 366928 354990 front 0)
+    )
+    (component IP190
+      (place P190 393090 354990 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "EasyEDA bridge")
+    )
+    (library_out 
+      (padstack Via600
+        (shape
+          (circle Top 6000 0 0)
+        )
+        (shape
+          (circle Bottom 6000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net "5V"
+        (wire
+          (path Top 5000
+            419989 510007
+            408728 510007
+          )
+        )
+        (wire
+          (path Top 5000
+            392989 540512
+            392989 532884
+          )
+        )
+        (wire
+          (path Top 5000
+            392989 532884
+            408728 517145
+            408728 510007
+          )
+        )
+        (wire
+          (path Top 5000
+            606814 237504
+            606814 231453
+            600354 224993
+          )
+        )
+        (wire
+          (path Top 5000
+            652471 262596
+            631906 262596
+            606814 237504
+          )
+        )
+        (wire
+          (path Top 5000
+            606814 237504
+            572587 271731
+            525724 271731
+            512467 284988
+          )
+        )
+        (wire
+          (path Top 5000
+            459994 408991
+            488243 380742
+            488243 284988
+          )
+        )
+        (wire
+          (path Top 5000
+            419989 559994
+            551002 559994
+            579984 531012
+          )
+        )
+        (wire
+          (path Top 5000
+            500355 284988
+            488243 284988
+          )
+        )
+        (wire
+          (path Top 5000
+            291573 591396
+            381504 591396
+            403200 569700
+          )
+        )
+        (wire
+          (path Top 3750
+            284569 593447
+            289522 593447
+            291573 591396
+          )
+        )
+        (wire
+          (path Top 5000
+            86589 559994
+            120042 593447
+            284569 593447
+          )
+        )
+        (wire
+          (path Top 5000
+            600354 224993
+            600354 131648
+            602005 129997
+          )
+        )
+        (wire
+          (path Top 5000
+            500355 284988
+            512467 284988
+          )
+        )
+        (wire
+          (path Top 5000
+            652471 262596
+            662699 252368
+            767819 252368
+            815010 205177
+          )
+        )
+        (wire
+          (path Top 5000
+            652471 262596
+            652471 284988
+          )
+        )
+        (wire
+          (path Top 5000
+            640359 284988
+            652471 284988
+          )
+        )
+        (wire
+          (path Top 5000
+            815010 194996
+            815010 205177
+          )
+        )
+        (wire
+          (path Top 3750
+            381687 557600
+            383573 559486
+          )
+        )
+        (wire
+          (path Top 5000
+            382948 540512
+            382948 556339
+            381687 557600
+          )
+        )
+        (wire
+          (path Top 5000
+            392989 540512
+            382948 540512
+          )
+        )
+        (wire
+          (path Top 3750
+            392989 559486
+            383573 559486
+          )
+        )
+        (wire
+          (path Top 2500
+            410300 569700
+            419989 559994
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 2500
+            403200 569700
+            410300 569700
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 2500
+            392989 559486
+            403200 569700
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 10000
+            719000 470000
+            659994 408991
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 10000
+            481000 430000
+            459994 408991
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 10000
+            520000 430000
+            481000 430000
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 10000
+            580000 490000
+            520000 430000
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 10000
+            579984 531012
+            580000 490000
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 15000
+            719000 470000
+            779983 531012
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 15000
+            660000 470000
+            719000 470000
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 15000
+            620000 510000
+            660000 470000
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 15000
+            619989 547294
+            620000 510000
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 15000
+            603700 531000
+            579984 531012
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 15000
+            619989 547294
+            603700 531000
+          )
+          (type protect)
+        )
+      )
+      (net GND
+        (wire
+          (path Top 2500
+            419989 540004
+            409978 540004
+          )
+        )
+        (wire
+          (path Top 2500
+            400648 549986
+            409978 540656
+            409978 540004
+          )
+        )
+        (wire
+          (path Top 2500
+            392989 549986
+            400648 549986
+          )
+        )
+        (wire
+          (path Top 2500
+            419989 489991
+            439112 489991
+          )
+        )
+        (wire
+          (path Bottom 2500
+            459994 531012
+            459994 510873
+            439112 489991
+          )
+        )
+        (via Via600 439112 489991
+        )
+        (wire
+          (path Top 2500
+            282421 259658
+            281916 259658
+          )
+        )
+        (wire
+          (path Top 2500
+            332511 247130
+            319983 259658
+            282421 259658
+          )
+        )
+        (wire
+          (path Top 1500
+            282421 260163
+            282421 259658
+          )
+        )
+        (wire
+          (path Top 1500
+            281916 259658
+            279763 257505
+            267513 257505
+          )
+        )
+        (wire
+          (path Top 2500
+            332511 237490
+            332511 247130
+          )
+        )
+        (wire
+          (path Top 2500
+            459994 531012
+            438992 531012
+            430000 540004
+          )
+        )
+        (wire
+          (path Top 2500
+            419989 540004
+            430000 540004
+          )
+        )
+        (wire
+          (path Top 2500
+            129489 429997
+            129489 419732
+          )
+        )
+        (wire
+          (path Top 2500
+            129489 419732
+            128262 418505
+            128262 401385
+            184639 345008
+            189989 345008
+          )
+        )
+        (wire
+          (path Top 2500
+            418150 264998
+            490004 193144
+            490004 122320
+            492477 119847
+            521074 119847
+            521725 120498
+          )
+        )
+        (wire
+          (path Top 2500
+            419706 282147
+            419706 266554
+            418150 264998
+          )
+        )
+        (wire
+          (path Top 2500
+            380009 294996
+            390020 294996
+          )
+        )
+        (wire
+          (path Top 2500
+            308659 302894
+            308659 286401
+            282421 260163
+          )
+        )
+        (wire
+          (path Top 2500
+            415989 302894
+            419989 306894
+            419989 345008
+          )
+        )
+        (wire
+          (path Top 2500
+            302489 311731
+            302489 309064
+            308659 302894
+          )
+        )
+        (wire
+          (path Top 2500
+            529996 120498
+            521725 120498
+          )
+        )
+        (wire
+          (path Top 2500
+            631632 296916
+            609485 274769
+            590228 274769
+            580009 284988
+          )
+        )
+        (wire
+          (path Top 2500
+            719988 296916
+            631632 296916
+          )
+        )
+        (wire
+          (path Top 2500
+            631632 296916
+            631632 325094
+            630670 326056
+          )
+        )
+        (wire
+          (path Bottom 2500
+            659994 531012
+            630670 501688
+            630670 326056
+          )
+        )
+        (via Via600 630670 326056
+        )
+        (wire
+          (path Top 2500
+            137389 559994
+            147396 570001
+            211912 570001
+          )
+        )
+        (wire
+          (path Top 2500
+            379044 490543
+            366344 477843
+            366344 442951
+          )
+        )
+        (wire
+          (path Top 2500
+            379044 497053
+            379044 490543
+          )
+        )
+        (wire
+          (path Top 2500
+            379044 490543
+            385555 484032
+            404019 484032
+          )
+        )
+        (wire
+          (path Top 2500
+            227543 213995
+            237998 213995
+          )
+        )
+        (wire
+          (path Top 2500
+            210420 245008
+            210420 231118
+            227543 213995
+          )
+        )
+        (wire
+          (path Top 2500
+            170002 124917
+            227543 182458
+            227543 213995
+          )
+        )
+        (wire
+          (path Top 2500
+            366344 510074
+            379044 510074
+          )
+        )
+        (wire
+          (path Top 2500
+            340004 540004
+            340004 511014
+            340944 510074
+          )
+        )
+        (wire
+          (path Top 2500
+            168742 524993
+            129489 485740
+            129489 429997
+          )
+        )
+        (wire
+          (path Top 2500
+            168742 524993
+            168742 528641
+            137389 559994
+          )
+        )
+        (wire
+          (path Top 2500
+            309769 404415
+            310357 405003
+            364998 405003
+          )
+        )
+        (wire
+          (path Top 2500
+            311988 363020
+            309769 365239
+            309769 404415
+          )
+        )
+        (wire
+          (path Top 2500
+            257988 353009
+            257988 395592
+            266811 404415
+            309769 404415
+          )
+        )
+        (wire
+          (path Top 2500
+            202635 333036
+            222608 353009
+            257988 353009
+          )
+        )
+        (wire
+          (path Top 2500
+            308659 302894
+            312259 302894
+          )
+        )
+        (wire
+          (path Top 2500
+            257988 353009
+            257988 342998
+          )
+        )
+        (wire
+          (path Top 2500
+            257988 342998
+            293537 342998
+            302489 334046
+            302489 322504
+          )
+        )
+        (wire
+          (path Top 2500
+            210420 245008
+            213991 245008
+            227987 259004
+          )
+        )
+        (wire
+          (path Top 2500
+            194996 245008
+            210420 245008
+          )
+        )
+        (wire
+          (path Top 2500
+            202635 333036
+            202635 326367
+            223999 305003
+          )
+        )
+        (wire
+          (path Top 2500
+            190663 345008
+            202635 333036
+          )
+        )
+        (wire
+          (path Top 2500
+            311988 353009
+            311988 363020
+          )
+        )
+        (wire
+          (path Top 2500
+            415989 302894
+            397918 302894
+            390020 294996
+          )
+        )
+        (wire
+          (path Top 2500
+            419215 288320
+            419215 299668
+            415989 302894
+          )
+        )
+        (wire
+          (path Top 2500
+            405003 440004
+            415014 440004
+          )
+        )
+        (wire
+          (path Top 2500
+            404019 484032
+            409978 489991
+          )
+        )
+        (wire
+          (path Top 2500
+            415014 440004
+            415014 473037
+            404019 484032
+          )
+        )
+        (wire
+          (path Top 2500
+            234010 305003
+            223999 305003
+          )
+        )
+        (wire
+          (path Top 2500
+            190663 345008
+            189989 345008
+          )
+        )
+        (wire
+          (path Top 2500
+            200000 345008
+            190663 345008
+          )
+        )
+        (wire
+          (path Top 2500
+            364998 405003
+            375009 405003
+          )
+        )
+        (wire
+          (path Top 2500
+            405003 440004
+            394992 440004
+          )
+        )
+        (wire
+          (path Top 2500
+            394992 440004
+            394992 424986
+            375009 405003
+          )
+        )
+        (wire
+          (path Top 2500
+            289992 499999
+            289992 510010
+          )
+        )
+        (wire
+          (path Top 2500
+            211912 570001
+            223675 570001
+          )
+        )
+        (wire
+          (path Top 2500
+            223675 570001
+            223675 566316
+            279981 510010
+            289992 510010
+          )
+        )
+        (wire
+          (path Top 2500
+            750011 170002
+            741080 170002
+          )
+        )
+        (wire
+          (path Top 2500
+            529996 89992
+            538927 89992
+          )
+        )
+        (wire
+          (path Top 2500
+            538927 89992
+            538927 83294
+            542919 79302
+            650380 79302
+            741080 170002
+          )
+        )
+        (wire
+          (path Top 2500
+            408000 264998
+            418150 264998
+          )
+        )
+        (wire
+          (path Top 1874
+            419706 282147
+            419215 282638
+            419215 288320
+          )
+        )
+        (wire
+          (path Top 2500
+            719988 296916
+            719988 320497
+          )
+        )
+        (wire
+          (path Top 2500
+            719988 284988
+            719988 296916
+          )
+        )
+        (wire
+          (path Top 2500
+            529996 89992
+            458089 89992
+            408102 40005
+          )
+        )
+        (wire
+          (path Top 2500
+            750011 170002
+            750011 200508
+          )
+        )
+        (wire
+          (path Top 2500
+            237998 259004
+            227987 259004
+          )
+        )
+        (wire
+          (path Top 2500
+            580009 284988
+            580009 320497
+          )
+        )
+        (wire
+          (path Top 2500
+            529996 89992
+            529996 120498
+          )
+        )
+        (wire
+          (path Top 2500
+            178156 524993
+            168742 524993
+          )
+        )
+        (wire
+          (path Top 1874
+            312259 302894
+            341636 302894
+            342041 302489
+          )
+        )
+        (wire
+          (path Top 2500
+            302489 322504
+            302489 311731
+          )
+        )
+        (wire
+          (path Top 1874
+            352501 302489
+            342041 302489
+          )
+        )
+        (wire
+          (path Top 2500
+            237998 259004
+            248009 259004
+          )
+        )
+        (wire
+          (path Top 2500
+            267513 257505
+            249508 257505
+            248009 259004
+          )
+        )
+        (wire
+          (path Top 2500
+            324993 220018
+            325812 220018
+            332511 226717
+          )
+        )
+        (wire
+          (path Top 2500
+            332511 237490
+            332511 226717
+          )
+        )
+        (wire
+          (path Top 2500
+            324993 210007
+            324993 220018
+          )
+        )
+        (wire
+          (path Top 2500
+            352501 302489
+            363274 302489
+          )
+        )
+        (wire
+          (path Top 2500
+            380009 294996
+            369998 294996
+          )
+        )
+        (wire
+          (path Top 2500
+            363274 302489
+            363274 301720
+            369998 294996
+          )
+        )
+        (wire
+          (path Top 2500
+            419989 489991
+            409978 489991
+          )
+        )
+        (wire
+          (path Top 2500
+            379044 497053
+            379044 510074
+          )
+        )
+        (wire
+          (path Top 2500
+            366344 497053
+            366344 510074
+          )
+        )
+        (wire
+          (path Top 2500
+            353644 503564
+            360154 510074
+            366344 510074
+          )
+        )
+        (wire
+          (path Top 2500
+            353644 503564
+            353644 510074
+          )
+        )
+        (wire
+          (path Top 2500
+            353644 497053
+            353644 503564
+          )
+        )
+        (wire
+          (path Top 2500
+            340944 497053
+            340944 510074
+          )
+        )
+        (wire
+          (path Top 2500
+            340944 510074
+            353644 510074
+          )
+        )
+        (wire
+          (path Bottom 15000
+            645000 572700
+            619989 572694
+          )
+          (type protect)
+        )
+        (wire
+          (path Bottom 15000
+            660000 557700
+            645000 572700
+          )
+          (type protect)
+        )
+        (wire
+          (path Bottom 15000
+            659994 531012
+            660000 557700
+          )
+          (type protect)
+        )
+        (wire
+          (path Bottom 15000
+            460000 585000
+            459994 531012
+          )
+          (type protect)
+        )
+        (wire
+          (path Bottom 15000
+            607700 585000
+            460000 585000
+          )
+          (type protect)
+        )
+        (wire
+          (path Bottom 15000
+            619989 572694
+            607700 585000
+          )
+          (type protect)
+        )
+      )
+      (net VBAT
+        (wire
+          (path Top 2500
+            289992 160773
+            291868 162649
+            305456 162649
+          )
+        )
+        (wire
+          (path Bottom 2500
+            318034 172108
+            308575 162649
+            305456 162649
+          )
+        )
+        (wire
+          (path Top 2500
+            329178 268610
+            329178 261514
+            371376 219316
+            371376 200011
+          )
+        )
+        (wire
+          (path Bottom 2500
+            332115 309415
+            329178 306478
+            329178 268610
+          )
+        )
+        (wire
+          (path Top 1874
+            371376 200011
+            345937 200011
+            318034 172108
+          )
+        )
+        (via Via600 318034 172108
+        )
+        (via Via600 329178 268610
+        )
+        (wire
+          (path Top 2500
+            289992 145009
+            289992 160773
+          )
+        )
+        (wire
+          (path Top 2500
+            289992 115011
+            289992 99247
+          )
+        )
+        (wire
+          (path Top 2500
+            177301 60091
+            250836 60091
+            289992 99247
+          )
+        )
+        (wire
+          (path Top 2500
+            289992 145009
+            289992 115011
+          )
+        )
+        (wire
+          (path Top 2500
+            332115 309415
+            335174 309415
+            337490 311731
+          )
+        )
+        (wire
+          (path Top 2500
+            337490 322504
+            337490 311731
+          )
+        )
+        (via Via600 332115 309415
+        )
+        (via Via600 305456 162649
+        )
+        (wire
+          (path Top 2500
+            50013 115011
+            50013 99247
+          )
+        )
+        (wire
+          (path Top 1874
+            68252 71665
+            165727 71665
+            177301 60091
+          )
+        )
+        (wire
+          (path Top 2500
+            50013 99247
+            68252 81008
+            68252 71665
+          )
+        )
+        (wire
+          (path Top 2500
+            50013 115011
+            50013 145009
+          )
+        )
+      )
+      (net "BUZZ_LOW"
+        (wire
+          (path Top 2500
+            628786 139103
+            606932 117249
+            556242 117249
+            550012 123479
+          )
+        )
+        (wire
+          (path Top 2500
+            628786 224993
+            628786 139103
+          )
+        )
+        (wire
+          (path Top 2500
+            628786 139103
+            668896 139103
+            678002 129997
+          )
+        )
+        (wire
+          (path Top 2500
+            550012 129997
+            550012 123479
+          )
+        )
+        (wire
+          (path Top 2500
+            639648 224993
+            628786 224993
+          )
+        )
+      )
+      (net "3V3"
+        (wire
+          (path Top 2500
+            310007 499999
+            310007 510010
+          )
+        )
+        (wire
+          (path Top 2500
+            310007 510010
+            297303 510010
+            237312 570001
+          )
+        )
+        (wire
+          (path Top 2500
+            379044 442951
+            379044 429930
+          )
+        )
+        (wire
+          (path Top 2500
+            330885 419448
+            259369 419448
+          )
+        )
+        (wire
+          (path Top 2500
+            259369 419448
+            238387 419448
+            218938 399999
+          )
+        )
+        (wire
+          (path Top 2500
+            259369 419448
+            259369 449361
+            270002 459994
+          )
+        )
+        (wire
+          (path Top 1874
+            339117 424495
+            335932 424495
+            330885 419448
+          )
+        )
+        (wire
+          (path Top 2500
+            379044 429930
+            373609 424495
+            339117 424495
+          )
+        )
+        (wire
+          (path Bottom 2500
+            237312 570001
+            249488 582177
+            297823 582177
+            320000 560000
+          )
+        )
+        (wire
+          (path Top 2500
+            210007 399999
+            218938 399999
+          )
+        )
+        (wire
+          (path Top 2500
+            305003 459994
+            305003 468925
+          )
+        )
+        (wire
+          (path Top 2500
+            305003 468925
+            310007 473929
+            310007 499999
+          )
+        )
+        (wire
+          (path Top 2500
+            270002 459994
+            305003 459994
+          )
+        )
+        (wire
+          (path Top 2500
+            405003 459994
+            394992 459994
+          )
+        )
+        (wire
+          (path Top 2500
+            379044 442951
+            379044 455972
+          )
+        )
+        (wire
+          (path Top 2500
+            379044 455972
+            390970 455972
+            394992 459994
+          )
+        )
+        (wire
+          (path Bottom 5000
+            217000 280000
+            217000 234000
+          )
+          (type protect)
+        )
+        (wire
+          (path Bottom 5000
+            217000 325000
+            217000 280000
+          )
+          (type protect)
+        )
+        (wire
+          (path Bottom 5000
+            341000 234000
+            217000 234000
+          )
+          (type protect)
+        )
+        (wire
+          (path Bottom 5000
+            365000 210000
+            341000 234000
+          )
+          (type protect)
+        )
+        (wire
+          (path Bottom 5000
+            400000 245000
+            365000 210000
+          )
+          (type protect)
+        )
+        (wire
+          (path Bottom 5000
+            400000 315000
+            400000 245000
+          )
+          (type protect)
+        )
+        (wire
+          (path Bottom 8000
+            430000 345000
+            400000 315000
+          )
+          (type protect)
+        )
+        (wire
+          (path Bottom 8000
+            430000 500000
+            430000 345000
+          )
+          (type protect)
+        )
+        (wire
+          (path Bottom 8000
+            400000 530000
+            430000 500000
+          )
+          (type protect)
+        )
+        (wire
+          (path Bottom 8000
+            350000 530000
+            400000 530000
+          )
+          (type protect)
+        )
+        (wire
+          (path Bottom 8000
+            320000 560000
+            350000 530000
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 5000
+            380009 315011
+            400000 315000
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 5000
+            345008 210007
+            365000 210000
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 5000
+            237998 234010
+            217000 234000
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 5000
+            237998 278994
+            217000 280000
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 5000
+            234010 324993
+            217000 325000
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 5000
+            340004 559994
+            320000 560000
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 5000
+            347500 560000
+            340004 559994
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 5000
+            367005 540512
+            347500 560000
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 1500
+            337490 217520
+            345008 210007
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 1500
+            337490 237490
+            337490 217520
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 1500
+            360000 315000
+            380009 315011
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 1500
+            352501 307492
+            360000 315000
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 1500
+            249010 234000
+            237998 234010
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 1500
+            267513 252501
+            249010 234000
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 1500
+            242010 333000
+            234010 324993
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 1500
+            297510 333000
+            242010 333000
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 1500
+            297510 322504
+            297510 333000
+          )
+          (type protect)
+        )
+        (via Via600 320000 560000
+          (type protect)
+        )
+        (via Via600 400000 315000
+          (type protect)
+        )
+        (via Via600 365000 210000
+          (type protect)
+        )
+        (via Via600 217000 234000
+          (type protect)
+        )
+        (via Via600 217000 280000
+          (type protect)
+        )
+        (via Via600 217000 325000
+          (type protect)
+        )
+      )
+      (net "HSE_OUT"
+        (wire
+          (path Top 2000
+            270500 377500
+            270510 394995
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 2000
+            278000 370000
+            270500 377500
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 2000
+            278003 353009
+            278000 370000
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 1500
+            292500 353000
+            278003 353009
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 1500
+            312500 333000
+            292500 353000
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 1500
+            312496 322504
+            312500 333000
+          )
+          (type protect)
+        )
+      )
+      (net "HSE_IN"
+        (wire
+          (path Top 2000
+            319500 377500
+            319507 394995
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 2000
+            332000 365000
+            319500 377500
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 2000
+            332003 353009
+            332000 365000
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 1500
+            332000 349500
+            332003 353009
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 1500
+            317500 335000
+            332000 349500
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 1500
+            317500 322504
+            317500 335000
+          )
+          (type protect)
+        )
+      )
+      (net "LSE_IN"
+        (wire
+          (path Top 2000
+            407000 352000
+            419989 364998
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 1500
+            404000 355000
+            393090 354990
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 1500
+            407000 352000
+            404000 355000
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 1500
+            407000 333000
+            407000 352000
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 1500
+            327500 333000
+            407000 333000
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 1500
+            327508 322504
+            327500 333000
+          )
+          (type protect)
+        )
+      )
+      (net "LSE_OUT"
+        (wire
+          (path Top 2000
+            365000 375000
+            364998 384988
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 2000
+            366900 373100
+            365000 375000
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 2000
+            366928 354990
+            366900 373100
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 1500
+            355400 343500
+            366928 354990
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 1500
+            333000 343500
+            355400 343500
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 1500
+            322500 333000
+            333000 343500
+          )
+          (type protect)
+        )
+        (wire
+          (path Top 1500
+            322504 322504
+            322500 333000
+          )
+          (type protect)
+        )
+      )
+      (net NRST
+        (wire
+          (path Top 2500
+            202309 389488
+            225779 389488
+            228780 392489
+          )
+        )
+        (wire
+          (path Bottom 2500
+            311428 309841
+            228780 392489
+          )
+        )
+        (wire
+          (path Top 2500
+            307492 311731
+            309538 311731
+            311428 309841
+          )
+        )
+        (wire
+          (path Top 2500
+            307492 322504
+            307492 311731
+          )
+        )
+        (wire
+          (path Top 2500
+            194458 399999
+            194458 397339
+            202309 389488
+          )
+        )
+        (wire
+          (path Top 2500
+            200000 375314
+            202309 377623
+            202309 389488
+          )
+        )
+        (via Via600 311428 309841
+        )
+        (via Via600 228780 392489
+        )
+        (wire
+          (path Top 2500
+            200000 364998
+            200000 375314
+          )
+        )
+        (wire
+          (path Top 2500
+            194458 399999
+            198923 399999
+          )
+        )
+        (wire
+          (path Top 2500
+            189992 399999
+            194458 399999
+          )
+        )
+        (wire
+          (path Top 2500
+            198923 399999
+            198923 408393
+            212430 421900
+            212430 524993
+          )
+        )
+        (wire
+          (path Top 2500
+            221844 524993
+            212430 524993
+          )
+        )
+      )
+      (net "MOTOR_A"
+        (wire
+          (path Top 15000
+            789991 264998
+            789991 281259
+          )
+        )
+        (wire
+          (path Top 15000
+            815010 307289
+            815010 287777
+          )
+        )
+        (wire
+          (path Top 15000
+            815010 287777
+            796509 287777
+            789991 281259
+          )
+        )
+        (wire
+          (path Bottom 11250
+            815010 307289
+            797373 307289
+          )
+        )
+        (wire
+          (path Bottom 11250
+            766851 313192
+            791470 313192
+            797373 307289
+          )
+        )
+        (wire
+          (path Bottom 15000
+            519989 389001
+            595798 313192
+            766851 313192
+          )
+        )
+      )
+      (net "MOTOR_B"
+        (wire
+          (path Top 15000
+            815010 332689
+            806570 332689
+            770001 296120
+            770001 264998
+          )
+        )
+        (wire
+          (path Bottom 15000
+            815010 332689
+            776300 332689
+            719988 389001
+          )
+        )
+      )
+      (net "COIL_1"
+        (wire
+          (path Top 2500
+            599999 329997
+            599999 336515
+          )
+        )
+        (wire
+          (path Top 2500
+            580009 346280
+            548782 346280
+            539648 337146
+            539648 284988
+          )
+        )
+        (wire
+          (path Top 2500
+            599999 336515
+            590234 346280
+            580009 346280
+          )
+        )
+        (wire
+          (path Top 2500
+            580009 346280
+            580009 408991
+          )
+        )
+      )
+      (net "COIL_2"
+        (wire
+          (path Top 2500
+            679653 284988
+            690515 284988
+          )
+        )
+        (wire
+          (path Top 2500
+            740004 329997
+            740004 323479
+          )
+        )
+        (wire
+          (path Top 2500
+            740004 323479
+            749266 314217
+            749266 276629
+            747252 274615
+            700888 274615
+            690515 284988
+          )
+        )
+        (wire
+          (path Top 2500
+            740004 329997
+            740004 368986
+            780009 408991
+          )
+        )
+      )
+      (net "LIGHT_LOW"
+        (wire
+          (path Top 2500
+            770001 210007
+            770001 203489
+          )
+        )
+        (wire
+          (path Top 2500
+            770001 203489
+            804494 168996
+            804494 129997
+          )
+        )
+      )
+      (net "LIGHT_A"
+        (wire
+          (path Top 2500
+            815010 175006
+            815010 166075
+          )
+        )
+        (wire
+          (path Top 2500
+            815010 166075
+            825500 155585
+            825500 129997
+          )
+        )
+      )
+      (net "STATUS_A"
+        (wire
+          (path Top 2500
+            180010 429997
+            150495 429997
+          )
+        )
+      )
+      (net "KEY_R1"
+        (wire
+          (path Top 2500
+            292506 322504
+            292506 310961
+            293798 309669
+          )
+        )
+        (wire
+          (path Bottom 2500
+            18142 312060
+            18142 472098
+            99289 553245
+            99289 563803
+            106930 571444
+            116685 571444
+            124689 563440
+            124689 478778
+            293798 309669
+          )
+        )
+        (via Via600 293798 309669
+        )
+        (wire
+          (path Bottom 1874
+            29247 272747
+            29247 300955
+            18142 312060
+          )
+        )
+        (wire
+          (path Bottom 2500
+            40005 271094
+            38352 272747
+            29247 272747
+          )
+        )
+      )
+      (net "KEY_R2"
+        (wire
+          (path Top 2500
+            196042 386848
+            169600 386848
+            165505 382753
+          )
+        )
+        (wire
+          (path Bottom 2500
+            48511 338046
+            120798 338046
+            165505 382753
+          )
+        )
+        (wire
+          (path Bottom 2500
+            283591 309499
+            206242 386848
+            196042 386848
+          )
+        )
+        (wire
+          (path Top 2500
+            283591 309499
+            285823 311731
+            287503 311731
+          )
+        )
+        (wire
+          (path Top 2500
+            287503 322504
+            287503 311731
+          )
+        )
+        (via Via600 283591 309499
+        )
+        (via Via600 196042 386848
+        )
+        (via Via600 165505 382753
+        )
+        (wire
+          (path Bottom 1874
+            43720 335794
+            45972 338046
+            48511 338046
+          )
+        )
+        (wire
+          (path Bottom 2500
+            40005 296494
+            29025 307474
+            29025 326711
+            38108 335794
+            43720 335794
+          )
+        )
+      )
+      (net "KEY_R3"
+        (wire
+          (path Top 2500
+            265526 328432
+            265056 328902
+            256723 328902
+            244006 316185
+          )
+        )
+        (wire
+          (path Bottom 2500
+            40005 321894
+            152457 321894
+            166372 335809
+            221556 335809
+            236710 320655
+            236730 320655
+            237440 319945
+            237440 312082
+            245825 303697
+          )
+        )
+        (wire
+          (path Top 2500
+            244535 307057
+            245825 305767
+            245825 303697
+          )
+        )
+        (wire
+          (path Top 1874
+            265526 328432
+            276571 328432
+            282499 322504
+          )
+        )
+        (wire
+          (path Top 1874
+            244535 307057
+            244006 307586
+            244006 316185
+          )
+        )
+        (via Via600 245825 303697
+        )
+      )
+      (net "KEY_R4"
+        (wire
+          (path Top 2500
+            134529 403980
+            178218 403980
+            178761 404523
+          )
+        )
+        (wire
+          (path Bottom 2500
+            260315 322635
+            260315 322987
+            223610 359692
+            214220 359692
+            185841 388071
+            185841 397443
+            178761 404523
+          )
+        )
+        (wire
+          (path Top 2500
+            260315 322635
+            261506 322635
+            267513 316628
+            267513 307492
+          )
+        )
+        (via Via600 260315 322635
+        )
+        (via Via600 178761 404523
+        )
+        (via Via600 134529 403980
+        )
+        (wire
+          (path Bottom 2500
+            40005 347294
+            77843 347294
+            134529 403980
+          )
+        )
+      )
+      (net "KEY_C1"
+        (wire
+          (path Top 2500
+            256648 302894
+            256648 310814
+            259961 314127
+          )
+        )
+        (wire
+          (path Bottom 2500
+            165856 416549
+            165856 408056
+            180807 393105
+            180807 386717
+            212349 355175
+            215371 355175
+            216306 354240
+            222674 354240
+            254048 322866
+            254048 320040
+            259961 314127
+          )
+        )
+        (wire
+          (path Top 2500
+            165856 416549
+            137292 416549
+            135068 414325
+          )
+        )
+        (wire
+          (path Bottom 2500
+            40005 372694
+            81636 414325
+            135068 414325
+          )
+        )
+        (wire
+          (path Top 1874
+            256648 302894
+            257053 302489
+          )
+        )
+        (wire
+          (path Top 1874
+            267513 302489
+            257053 302489
+          )
+        )
+        (via Via600 259961 314127
+        )
+        (via Via600 165856 416549
+        )
+        (via Via600 135068 414325
+        )
+      )
+      (net "KEY_C2"
+        (wire
+          (path Bottom 2500
+            280181 297510
+            286947 290744
+            286947 280250
+            282476 275779
+            269557 275779
+            257155 288181
+            250766 288181
+            232406 306541
+            232406 318571
+            219685 331292
+            171202 331292
+            159761 319851
+          )
+        )
+        (wire
+          (path Top 2500
+            278286 297510
+            280181 297510
+          )
+        )
+        (wire
+          (path Top 2500
+            267513 297510
+            278286 297510
+          )
+        )
+        (wire
+          (path Top 2500
+            40005 398094
+            118248 319851
+            159761 319851
+          )
+        )
+        (via Via600 159761 319851
+        )
+        (via Via600 280181 297510
+        )
+      )
+      (net "KEY_C3"
+        (wire
+          (path Bottom 2500
+            40005 423494
+            134919 423494
+            171773 386640
+            171773 382975
+            214422 340326
+            223427 340326
+            238581 325172
+            238601 325172
+            241957 321816
+            241957 316457
+            252508 305906
+            252508 295315
+          )
+        )
+        (wire
+          (path Top 2500
+            253347 292912
+            252508 293751
+            252508 295315
+          )
+        )
+        (wire
+          (path Top 1874
+            267513 292506
+            257053 292506
+          )
+        )
+        (wire
+          (path Top 1874
+            253347 292912
+            256647 292912
+            257053 292506
+          )
+        )
+        (via Via600 252508 295315
+        )
+      )
+      (net "KEY_C4"
+        (wire
+          (path Top 2500
+            245217 290569
+            198330 290569
+            40005 448894
+          )
+        )
+        (wire
+          (path Top 2500
+            248575 289356
+            247930 289356
+            246717 290569
+          )
+        )
+        (wire
+          (path Top 1874
+            253235 286658
+            250537 289356
+            248575 289356
+          )
+        )
+        (wire
+          (path Top 2500
+            267513 287503
+            254080 287503
+            253235 286658
+          )
+        )
+        (wire
+          (path Top 1874
+            245217 290569
+            246717 290569
+          )
+        )
+      )
+      (net "PIR_OUT"
+        (wire
+          (path Bottom 2500
+            111989 559994
+            111989 455297
+            176290 390996
+            176290 384846
+            210478 350658
+            213500 350658
+            214435 349723
+            220438 349723
+            246474 323687
+            246474 318643
+            280168 284949
+            280168 282499
+          )
+        )
+        (wire
+          (path Top 2500
+            278286 282499
+            280168 282499
+          )
+        )
+        (wire
+          (path Top 2500
+            267513 282499
+            278286 282499
+          )
+        )
+        (via Via600 280168 282499
+        )
+      )
+      (net SWDIO
+        (wire
+          (path Top 2500
+            327508 237490
+            327508 228900
+            323575 224967
+            321476 224967
+            311767 215258
+            311767 85540
+            357302 40005
+          )
+        )
+      )
+      (net SWCLK
+        (wire
+          (path Top 2500
+            382702 40005
+            382702 233073
+            363274 252501
+          )
+        )
+        (wire
+          (path Top 2500
+            352501 252501
+            363274 252501
+          )
+        )
+      )
+      (net "I2C_SCL"
+        (wire
+          (path Top 2500
+            262712 570001
+            274920 582209
+            292625 582209
+            312344 562490
+            312344 548951
+            334680 526615
+            334680 478641
+            353644 459677
+            353644 442951
+          )
+        )
+        (wire
+          (path Bottom 2500
+            262712 570001
+            262712 420298
+            338425 344585
+            338425 277901
+          )
+        )
+        (wire
+          (path Top 1874
+            352501 277495
+            342041 277495
+          )
+        )
+        (wire
+          (path Top 1874
+            338425 277901
+            341635 277901
+            342041 277495
+          )
+        )
+        (via Via600 338425 277901
+        )
+        (wire
+          (path Top 2500
+            305003 440004
+            305003 431073
+          )
+        )
+        (wire
+          (path Top 2500
+            353644 442951
+            353644 429930
+          )
+        )
+        (wire
+          (path Top 2500
+            353644 429930
+            306146 429930
+            305003 431073
+          )
+        )
+      )
+      (net "I2C_SDA"
+        (wire
+          (path Bottom 2500
+            328753 439044
+            288112 479685
+            288112 570001
+          )
+        )
+        (wire
+          (path Top 1874
+            362609 282093
+            352907 282093
+            352501 282499
+          )
+        )
+        (wire
+          (path Top 2500
+            365329 282283
+            362799 282283
+            362609 282093
+          )
+        )
+        (via Via600 365329 282283
+        )
+        (wire
+          (path Bottom 2500
+            343568 376947
+            365329 355186
+            365329 282283
+          )
+        )
+        (wire
+          (path Bottom 1874
+            328753 439044
+            328753 391762
+            343568 376947
+          )
+        )
+        (wire
+          (path Top 2500
+            327743 464590
+            336361 455972
+            340944 455972
+          )
+        )
+        (wire
+          (path Top 2500
+            288112 570001
+            288112 544303
+            327743 504672
+            327743 464590
+          )
+        )
+        (wire
+          (path Top 2500
+            327743 464590
+            312088 448935
+            270002 448935
+          )
+        )
+        (wire
+          (path Top 2500
+            270002 440004
+            270002 448935
+          )
+        )
+        (wire
+          (path Top 2500
+            340944 442951
+            340944 455972
+          )
+        )
+      )
+      (net "GATE_K1"
+        (wire
+          (path Top 2500
+            550012 329997
+            577028 329997
+            580009 332978
+          )
+        )
+        (wire
+          (path Top 2500
+            580009 339496
+            580009 332978
+          )
+        )
+        (wire
+          (path Top 2500
+            599999 284988
+            591068 284988
+          )
+        )
+        (wire
+          (path Top 2500
+            591068 284988
+            591068 322734
+            580824 332978
+            580009 332978
+          )
+        )
+      )
+      (net "GATE_K2"
+        (wire
+          (path Top 2500
+            689991 329997
+            717007 329997
+            719988 332978
+          )
+        )
+        (wire
+          (path Top 2500
+            719988 339496
+            719988 332978
+          )
+        )
+        (wire
+          (path Top 2500
+            740004 284988
+            740004 314001
+            721027 332978
+            719988 332978
+          )
+        )
+      )
+      (net "GATE_BUZZ"
+        (wire
+          (path Top 2500
+            499999 129997
+            527014 129997
+            529996 132979
+          )
+        )
+        (wire
+          (path Top 2500
+            529996 139497
+            529996 132979
+          )
+        )
+        (wire
+          (path Top 2500
+            550012 89992
+            550012 114002
+            531035 132979
+            529996 132979
+          )
+        )
+      )
+      (net "GATE_LIGHT"
+        (wire
+          (path Top 2500
+            750011 219507
+            741740 219507
+          )
+        )
+        (wire
+          (path Top 2500
+            719988 219989
+            741258 219989
+            741740 219507
+          )
+        )
+        (wire
+          (path Top 2500
+            750011 219507
+            750011 212989
+          )
+        )
+        (wire
+          (path Top 2500
+            770001 170002
+            761070 170002
+          )
+        )
+        (wire
+          (path Top 2500
+            761070 170002
+            761070 202745
+            750826 212989
+            750011 212989
+          )
+        )
+      )
+      (net BOOT0
+        (wire
+          (path Top 2500
+            397850 284988
+            396981 284119
+            372356 284119
+            367925 288550
+            362734 288550
+            361687 287503
+            352501 287503
+          )
+        )
+        (wire
+          (path Top 2500
+            408000 284988
+            397850 284988
+          )
+        )
+      )
+      (net BOOT1
+        (wire
+          (path Top 1874
+            280067 272111
+            278353 272111
+            277973 272491
+          )
+        )
+        (wire
+          (path Top 2500
+            280067 272111
+            280067 269267
+          )
+        )
+        (wire
+          (path Top 2500
+            194996 264998
+            224748 264998
+          )
+        )
+        (wire
+          (path Bottom 2500
+            280067 269267
+            269679 269267
+            257418 281528
+            241278 281528
+            224748 264998
+          )
+        )
+        (wire
+          (path Top 1874
+            267513 272491
+            277973 272491
+          )
+        )
+        (via Via600 280067 269267
+        )
+        (via Via600 224748 264998
+        )
+      )
+      (net "RELAY_A"
+        (wire
+          (path Top 2500
+            282499 248263
+            282499 249326
+            281724 250101
+          )
+        )
+        (wire
+          (path Bottom 2500
+            359059 325635
+            359059 289393
+            313334 243668
+            288157 243668
+            281724 250101
+          )
+        )
+        (via Via600 281724 250101
+        )
+        (wire
+          (path Top 2500
+            529996 329997
+            495824 329997
+          )
+        )
+        (wire
+          (path Bottom 2500
+            413216 315196
+            428017 329997
+            495824 329997
+          )
+        )
+        (wire
+          (path Top 2500
+            413216 315196
+            402777 325635
+            359059 325635
+          )
+        )
+        (wire
+          (path Top 2500
+            282499 237490
+            282499 248263
+          )
+        )
+        (via Via600 359059 325635
+        )
+        (via Via600 413216 315196
+        )
+        (via Via600 495824 329997
+        )
+      )
+      (net "RELAY_B"
+        (wire
+          (path Top 2500
+            287503 237490
+            287503 227631
+            284828 224956
+          )
+        )
+        (wire
+          (path Bottom 2500
+            557113 261443
+            494147 198477
+            309507 198477
+            284828 223156
+            284828 224956
+          )
+        )
+        (via Via600 284828 224956
+        )
+        (wire
+          (path Top 2500
+            557113 261443
+            565488 261443
+          )
+        )
+        (wire
+          (path Bottom 2500
+            604649 300604
+            565488 261443
+          )
+        )
+        (wire
+          (path Top 2500
+            670001 329997
+            661070 329997
+          )
+        )
+        (wire
+          (path Top 2500
+            661070 329997
+            658711 332356
+            627270 332356
+            604649 309735
+            604649 300604
+          )
+        )
+        (via Via600 557113 261443
+        )
+        (via Via600 565488 261443
+        )
+        (via Via600 604649 300604
+        )
+      )
+      (net "BUZZ_EN"
+        (wire
+          (path Top 2500
+            266726 241566
+            266726 232279
+            272683 226322
+          )
+        )
+        (wire
+          (path Bottom 2500
+            389193 129997
+            369008 129997
+            272683 226322
+          )
+        )
+        (wire
+          (path Top 2500
+            480009 129997
+            389193 129997
+          )
+        )
+        (via Via600 389193 129997
+        )
+        (wire
+          (path Top 2500
+            254724 275106
+            254724 277089
+          )
+        )
+        (wire
+          (path Bottom 2500
+            266726 241566
+            266726 263104
+            254724 275106
+          )
+        )
+        (wire
+          (path Top 1874
+            254724 277089
+            256647 277089
+            257053 277495
+          )
+        )
+        (wire
+          (path Top 1874
+            267513 277495
+            257053 277495
+          )
+        )
+        (via Via600 254724 275106
+        )
+        (via Via600 266726 241566
+        )
+        (via Via600 272683 226322
+        )
+      )
+      (net "LIGHT_EN"
+        (wire
+          (path Top 2500
+            292506 237490
+            292506 224346
+            292908 223944
+          )
+        )
+        (wire
+          (path Bottom 2500
+            437950 254917
+            386569 203536
+            313316 203536
+            292908 223944
+          )
+        )
+        (via Via600 292908 223944
+        )
+        (wire
+          (path Top 2500
+            699999 219989
+            691068 219989
+          )
+        )
+        (wire
+          (path Top 2500
+            691068 219989
+            673853 237204
+            617144 237204
+          )
+        )
+        (wire
+          (path Bottom 2500
+            573798 254917
+            591511 237204
+            617144 237204
+          )
+        )
+        (wire
+          (path Top 2500
+            573798 254917
+            437950 254917
+          )
+        )
+        (via Via600 437950 254917
+        )
+        (via Via600 573798 254917
+        )
+        (via Via600 617144 237204
+        )
+      )
+      (net "STATUS_LED"
+        (wire
+          (path Top 2500
+            200000 429997
+            191069 429997
+          )
+        )
+        (wire
+          (path Top 2500
+            191069 429997
+            191069 438928
+            189970 440027
+          )
+        )
+        (wire
+          (path Bottom 2500
+            189970 440027
+            189970 422363
+            300103 312230
+            300103 252630
+            297510 250037
+          )
+        )
+        (wire
+          (path Top 2500
+            297510 250037
+            297510 237490
+          )
+        )
+        (via Via600 297510 250037
+        )
+        (via Via600 189970 440027
+        )
+      )
+    )
+  )
+)
