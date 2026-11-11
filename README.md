@@ -3,6 +3,7 @@
 保存设计成果、验证证据、工程经验、历史脚本与后续计划，逐步形成可维护的工程知识。已发布至公开仓库 [xing1t/ai-work](https://github.com/xing1t/ai-work)，接入状态见下方链接；项目暂不添加对外许可证。
 
 - [首个项目：GPT + 嘉立创 EDA 专业版半自动设计密码门禁系统](projects/gpt-easyeda-access-control/README.md)
+- [T-3CAN PCB 复盘](projects/t2can-replica/README.md)
 - [归档映射与输入核验](projects/gpt-easyeda-access-control/validation/README.md)
 - [GitHub 接入准备](GITHUB_SETUP.md)
 - [维护规则](AGENTS.md)
